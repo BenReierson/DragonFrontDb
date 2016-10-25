@@ -12,7 +12,10 @@
    "Text": "SPAWN: Deploy a 1/1 Stygian in each open space in Ally Territory.",
    "FlavorText": "The greatest living practitioner of the necromantic arts, the Gajji revolutionized the Eclipse armies, spurring them into war.",
    "IsGiant": false,
-   "Race" : "STYGIAN"
+   "Race" : "STYGIAN",
+   "Traits": [
+        "_SPAWN"
+    ]
  },
  {
    "ID": "EcC002",
