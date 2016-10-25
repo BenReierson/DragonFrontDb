@@ -44,7 +44,6 @@
     <EmbeddedResource Include="AllCards.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="LICENSE" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
