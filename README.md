@@ -2,7 +2,7 @@
 
 This is your one-stop-shop for the data underlying Dragon Front, a virtual reality game from High Voltage Software. 
 
-This .NET libary will attempt to gather all the card (and other relevant data) from the game in once place and keep it updated as the game evolves. 
+This .NET libary will attempt to gather all the card (and other relevant) data from the game in one place and keep it updated as the game evolves. 
 
 #We need your help!
 The current card data is incomplete, and likely contains errors. We have not obtained a clean extract from the game itself, so it's up to the community to fill in the gaps. 

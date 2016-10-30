@@ -20,7 +20,7 @@ namespace DragonFrontDb
         {
             get
             {
-                return new Version(0, 96, 24309, 2);
+                return new Version(0, 96, 24974, 3);
             }
         }
     }
