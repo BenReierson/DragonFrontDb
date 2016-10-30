@@ -2,16 +2,14 @@
 <package >
   <metadata>
     <id>DragonFrontDb</id>
-    <version>$version$</version>
+    <version>1.0.0.1</version>
     <title>$title$</title>
     <authors>benreierson</authors>
     <owners>benreierson</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <projectUrl>http://github.com/BenReierson/DragonFrontDb</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
-    <releaseNotes>First release</releaseNotes>
+    <releaseNotes>fixed hollow harvesters</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
   </metadata>
