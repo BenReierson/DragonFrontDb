@@ -1620,7 +1620,7 @@
    "Cost": 1,
    "Rarity": "Basic",
    "Faction": "Thorns",
-   "Power": null,
+   "Power": 0,
    "Health": 1,
    "ManaFragments": 1,
    "Text": "START OF TURN: Gain 1 Mana if an enemy unit is in this lane.",
