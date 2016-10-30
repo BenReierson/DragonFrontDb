@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DragonFrontDb</id>
-    <version>1.0.0.1</version>
+    <version>$version$</version>
     <title>$title$</title>
     <authors>benreierson</authors>
     <owners>benreierson</owners>
