@@ -17,7 +17,7 @@ namespace DragonFrontDb.Enums
         SCALES = 3,
         STRIFE = 4,
         THORNS = 5,
-        UNKNOWN1 = 6,
+        SILENCE = 6,
         UNKNOWN2 = 7,
         UNKNOWN3 = 8,
     }
@@ -77,7 +77,11 @@ namespace DragonFrontDb.Enums
         REGEN,
         WALL,
         GIANT,
-        EXECUTE
+        EXECUTE, 
+        SWIFT,
+        STEALTH,
+        POISONED,
+        HUSH,
     }
     
     public enum Race

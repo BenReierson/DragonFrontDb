@@ -39,6 +39,7 @@ namespace DragonFrontDb
         public static readonly ReadOnlyCollection<Card> AllStrife;
         public static readonly ReadOnlyCollection<Card> AllScales;
         public static readonly ReadOnlyCollection<Card> AllEclipse;
+        public static readonly ReadOnlyCollection<Card> AllSilence;
         public static readonly ReadOnlyCollection<Card> AllUnaligned;
 
 
@@ -76,6 +77,7 @@ namespace DragonFrontDb
             AllStrife = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.STRIFE).ToList());
             AllEclipse = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.ECLIPSE).ToList());
             AllScales = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.SCALES).ToList());
+            AllSilence = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.SILENCE).ToList());
             AllUnaligned = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.UNALIGNED).ToList());
             
         }

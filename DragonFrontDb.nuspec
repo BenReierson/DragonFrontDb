@@ -9,7 +9,7 @@
     <projectUrl>http://github.com/BenReierson/DragonFrontDb</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
-    <releaseNotes>fixed hollow harvesters</releaseNotes>
+    <releaseNotes>Added Silence faction</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
   </metadata>
