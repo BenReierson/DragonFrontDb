@@ -82,6 +82,8 @@ namespace DragonFrontDb.Enums
         STEALTH,
         POISONED,
         HUSH,
+        REFRESH,
+        MANA
     }
     
     public enum Race

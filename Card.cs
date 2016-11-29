@@ -19,7 +19,7 @@ namespace DragonFrontDb
 
         [JsonProperty]
         [JsonConverter(typeof(StringEnumConverter))]
-        public CardSet CardSet { get; internal set; }
+        public CardSet CardSet { get; internal set; } = CardSet.CORE;
 
         [JsonProperty]
         public string Text { get; internal set; }

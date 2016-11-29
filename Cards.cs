@@ -31,8 +31,8 @@ namespace DragonFrontDb
         }
         #endregion
 
-        private static readonly Dictionary<string, Card> _allMutable = new Dictionary<string, Card>();
         public static readonly ReadOnlyDictionary<string, Card> CardDictionary;
+        public static readonly ReadOnlyDictionary<Traits, string> TraitsDictionary;
 
         public static readonly ReadOnlyCollection<Card> All;
         public static readonly ReadOnlyCollection<Card> AllThorns;
@@ -45,34 +45,35 @@ namespace DragonFrontDb
 
         static Cards()
         {
-            #region CreateCards
-            
-            var cards = ImportFromJson("AllCards.json");
+            #region Parse Cards
+            var _allCardsMutable = ImportFromJson("AllCards.json").ToDictionary(k => k.ID, c => c);
 
-            foreach (var card in cards)
+            //add traits based on card text 
+            //TODO:Remove this when all traits for each card are included in json
+            var knownTraits = Enum.GetValues(typeof(Traits)).Cast<Traits>();
+            foreach (var card in _allCardsMutable)
             {
-                card.CardSet = CardSet.CORE;
-                _allMutable.Add(card.ID, card);
+                var cardTraits = card.Value.Traits?.ToList() ?? new List<Traits>();
+                var traitText = card.Value.Text.Replace(" ", "_").Replace(":", "_").Replace(",", "_").Replace(".", "_").Insert(0, "_");
+                foreach (var trait in knownTraits)
+                {
+                    if (!cardTraits.Contains(trait) &&
+                        traitText.Contains(Enum.GetName(typeof(Traits), trait)))
+                    { cardTraits.Add(trait); }
+                }
+                if (card.Value.IsGiant && !cardTraits.Contains(Traits.GIANT)) cardTraits.Add(Traits.GIANT);
+                card.Value.Traits = cardTraits.ToArray();
             }
-
             #endregion
 
-            var allTraits = new List<string>(); 
-            //add traits based on card text TODO:Remove this when defined in data.
-            foreach (var card in _allMutable)
-            {
-                var cardTraits = new List<Traits>();
-                var traitText = card.Value.Text.Replace(" ", "_").Replace(":", "_").Replace(",", "_").Replace(".", "_").Insert(0, "_");
-                foreach (var trait in Enum.GetNames(typeof(Traits)))
-                {
-                    if (traitText.Contains(trait))
-                        cardTraits.Add((Traits)Enum.Parse(typeof(Traits), trait));
-                }
-                card.Value.Traits = cardTraits.Distinct().ToArray();
-            }
-            
-            CardDictionary = new ReadOnlyDictionary<string, Card>(_allMutable);
-            All = new ReadOnlyCollection<Card>(_allMutable.Values.ToList());
+            #region Parse Trait Descriptions
+            var traitsJson = GetResourceTextFile("CardTraits.json");
+            var mutableTraitDictionary = JsonConvert.DeserializeObject<Dictionary<Traits, string>>(traitsJson);
+            #endregion
+
+            TraitsDictionary = new ReadOnlyDictionary<Traits, string>(mutableTraitDictionary);
+            CardDictionary = new ReadOnlyDictionary<string, Card>(_allCardsMutable);
+            All = new ReadOnlyCollection<Card>(_allCardsMutable.Values.ToList());
             AllThorns = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.THORNS).ToList());
             AllStrife = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.STRIFE).ToList());
             AllEclipse = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.ECLIPSE).ToList());
@@ -86,7 +87,7 @@ namespace DragonFrontDb
         {
             var json = GetResourceTextFile(filename);
 
-            var cards = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Card>>(json);
+            var cards = JsonConvert.DeserializeObject<List<Card>>(json);
 
             return cards;
         }
