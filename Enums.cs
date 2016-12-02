@@ -108,5 +108,22 @@ namespace DragonFrontDb.Enums
         EPIC = 4,
         CHAMPION = 5
     }
-    
+
+    public enum CardScrapPrice
+    {
+        INVALID = 0,
+        COMMON = 400,
+        RARE = 1600,
+        EPIC = 3200,
+        CHAMPION = 8000
+    }
+
+    public enum CardScrapValue
+    {
+        INVALID = 0,
+        COMMON = 50,
+        RARE = 200,
+        EPIC = 400,
+        CHAMPION = 0
+    }
 }

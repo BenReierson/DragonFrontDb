@@ -69,6 +69,59 @@ namespace DragonFrontDb
         [JsonProperty]
         public Race Race { get; internal set; }
 
+        [JsonProperty]
+        public bool Forgeable { get; internal set; }
+
+        [JsonIgnore]
+        public int ForgePrice
+        {
+            get
+            {
+                if (!Forgeable) return (int)CardScrapPrice.INVALID;
+
+                switch (Rarity)
+                {
+                    case Rarity.INVALID:
+                    case Rarity.BASIC:
+                        return (int)CardScrapPrice.INVALID;
+                    case Rarity.COMMON:
+                        return (int)CardScrapPrice.COMMON;
+                    case Rarity.RARE:
+                        return (int)CardScrapPrice.RARE;
+                    case Rarity.EPIC:
+                        return (int)CardScrapPrice.EPIC;
+                    case Rarity.CHAMPION:
+                        return (int)CardScrapPrice.CHAMPION;
+                }
+                return (int)CardScrapPrice.INVALID;
+            }
+        }
+
+        [JsonIgnore]
+        public int ScrapValue
+        {
+            get
+            {
+                if (!Forgeable) return (int)CardScrapValue.INVALID;
+
+                switch (Rarity)
+                {
+                    case Rarity.INVALID:
+                    case Rarity.BASIC:
+                        return (int)CardScrapValue.INVALID;
+                    case Rarity.COMMON:
+                        return (int)CardScrapValue.COMMON;
+                    case Rarity.RARE:
+                        return (int)CardScrapValue.RARE;
+                    case Rarity.EPIC:
+                        return (int)CardScrapValue.EPIC;
+                    case Rarity.CHAMPION:
+                        return (int)CardScrapValue.CHAMPION;
+                }
+                return (int)CardScrapValue.INVALID;
+            }
+        }
+
         public override string ToString()
         {
             return this.Name + " | " + this.Type.ToString() + " | " + this.Faction.ToString();
