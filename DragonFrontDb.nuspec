@@ -9,7 +9,7 @@
     <projectUrl>http://github.com/BenReierson/DragonFrontDb</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
-    <releaseNotes>Added Card.Collectible and Card.Forgeable data to json. Added ScrapPrice and ScrapValue enums with corresponding runtime calculated Card properties.</releaseNotes>
+    <releaseNotes>Updated 'Circle Of Life'</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
   </metadata>
