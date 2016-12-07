@@ -2328,11 +2328,11 @@
    "Text": "WALL. Deal 1 damage to enemy units attacking this fort from an adjacent space.",
    "IsGiant": false
  },
- {
+{
    "ID": "ThF007",
    "Name": "Circle of Life",
    "Type": "Fort",
-   "Cost": 3,
+   "Cost": 1,
    "Rarity": "Rare",
    "Collectible": true,
    "Forgeable": true,
@@ -2340,9 +2340,9 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "DRAW 1 when an Ally spell is played.",
+   "Text": "DRAW 1 for each card you discard.",
    "IsGiant": false
- },
+},
  {
    "ID": "EcF004",
    "Name": "Soul Foundry",
