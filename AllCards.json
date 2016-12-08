@@ -4196,7 +4196,7 @@
    "ID": "SiS011",
    "Name": "From the Shadows",
    "Type": "Spell",
-   "Cost": 3,
+   "Cost": 4,
    "Rarity": "Epic",
    "Collectible": true,
    "Forgeable": true,
