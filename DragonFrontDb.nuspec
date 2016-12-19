@@ -9,7 +9,7 @@
     <projectUrl>http://github.com/BenReierson/DragonFrontDb</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
-    <releaseNotes>Updated 'Circle Of Life'</releaseNotes>
+    <releaseNotes>Updated 'Circle Of Life' and 'From The Shadows'</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
   </metadata>
