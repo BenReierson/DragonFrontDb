@@ -128,7 +128,7 @@
    "ID": "EcS001",
    "Name": "Sigil of the Tempest",
    "Type": "Spell",
-   "Cost": 2,
+   "Cost": 0,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -1339,7 +1339,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "Deal 1 damage to all enemy units and the enemy Stronghold.",
+   "Text": "Deal 1 damage to all enemy units.",
    "IsGiant": false
  },
  {
@@ -1354,7 +1354,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "Deal 3 damage to a unit and the enemy Stronghold.",
+   "Text": "Deal 3 damage to a unit and 2 damange to the enemy Stronghold.",
    "IsGiant": false
  },
  {
@@ -3683,7 +3683,7 @@
    "Collectible": true,
    "Forgeable": true,
    "Faction": "Unaligned",
-   "Power": 5,
+   "Power": 4,
    "Health": 3,
    "ManaFragments": 2,
    "Text": "FLIGHT. BLIGHT.",

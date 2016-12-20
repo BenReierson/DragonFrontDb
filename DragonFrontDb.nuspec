@@ -9,7 +9,12 @@
     <projectUrl>http://github.com/BenReierson/DragonFrontDb</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
-    <releaseNotes>Updated 'Circle Of Life' and 'From The Shadows'</releaseNotes>
+    <releaseNotes> Card changes:
+      Volcanic Eruption – Removed the Stronghold damage from its effect.
+      Chain Lightning – Reduced Stronghold damage this card inflicts to 2.
+      Tempest Zeppelins – Reduced Power to 4.
+      Sigil of the Tempest – Reduced the mana cost of this card to 0.
+    </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
   </metadata>
