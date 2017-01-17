@@ -98,7 +98,8 @@ namespace DragonFrontDb.Enums
         HOLLOW = 5,
         DRAGON = 6,
         SLAG = 7,
-        SHADOW = 8
+        SHADOW = 8,
+        GOLEM = 9
     }
 
     public enum Rarity
