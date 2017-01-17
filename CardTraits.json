@@ -32,5 +32,7 @@
   "POISONED": "A poisoned unit receives 1 damage at the start of its owner’s turn.",
   "HUSH": "Remove all bonuses, abilities, and traits from targeted unit. Does not remove ongoing effects.",
   "REFRESH": "During a players turn, a unit with Refresh may activate a second time.",
-  "MANA": "Gain a Mana. If there is a number after this, gain that much Mana."
+  "MANA": "Gain a Mana. If there is a number after this, gain that much Mana.",
+  "PUSH": "Moves the targeted unit one space away from the owner’s Stronghold. Can be used to move friendly units forward, or enemy units backward. Does not count as a move action, and thus doesn’t initiate combat.",
+  "SHIFT": "Move a unit left or right into the next Lane, as long as it is open (No Walls or Units). Counts as movement, and is followed up by an attack to Units in front of moved unit's new space."
 }

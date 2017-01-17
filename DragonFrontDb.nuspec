@@ -9,11 +9,14 @@
     <projectUrl>http://github.com/BenReierson/DragonFrontDb</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
-    <releaseNotes> Card changes:
-      Volcanic Eruption – Removed the Stronghold damage from its effect.
-      Chain Lightning – Reduced Stronghold damage this card inflicts to 2.
-      Tempest Zeppelins – Reduced Power to 4.
-      Sigil of the Tempest – Reduced the mana cost of this card to 0.
+    <releaseNotes>Added Essence faction.
+    
+      Existing card changes:
+      Heavy Ordnance – Can only target non-Giant allies.
+      Accelerator – Lower cost by 1.
+      Bark Druids - Stat change to 2/1/2
+      Healing Grove - Heal has been raised to 2.
+      Rainbow Mists - Mana cost has been reduced to 5.
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>

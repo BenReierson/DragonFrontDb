@@ -1674,7 +1674,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "START OF TURN: HEAL ally units in the same row for 1.",
+   "Text": "START OF TURN: HEAL ally units in the same row for 2.",
    "IsGiant": false
  },
  {
@@ -1711,7 +1711,7 @@
    "ID": "ThF012",
    "Name": "Rainbow Mists",
    "Type": "Fort",
-   "Cost": 6,
+   "Cost": 5,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -1883,7 +1883,7 @@
    "Forgeable": false,
    "Faction": "Thorns",
    "Power": 1,
-   "Health": 1,
+   "Health": 2,
    "ManaFragments": 1,
    "Text": "END OF TURN: Gain +1 Power or +1 Health at random.",
    "IsGiant": false,
@@ -2685,7 +2685,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "Grant RANGE to an ally unit for its next action.",
+   "Text": "Grant RANGE to a non-Giant ally unit for its next action.",
    "IsGiant": false
  },
  {
@@ -4100,7 +4100,7 @@
    "ID": "SiF014",
    "Name": "Accelerator",
    "Type": "Fort",
-   "Cost": 4,
+   "Cost": 3,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,

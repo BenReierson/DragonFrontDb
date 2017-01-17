@@ -18,7 +18,7 @@ namespace DragonFrontDb.Enums
         STRIFE = 4,
         THORNS = 5,
         SILENCE = 6,
-        UNKNOWN2 = 7,
+        ESSENCE = 7,
         UNKNOWN3 = 8,
     }
 
@@ -83,7 +83,9 @@ namespace DragonFrontDb.Enums
         POISONED,
         HUSH,
         REFRESH,
-        MANA
+        MANA,
+        SHIFT,
+        PUSH
     }
     
     public enum Race
