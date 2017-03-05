@@ -1978,7 +1978,7 @@
    "Power": 2,
    "Health": 2,
    "ManaFragments": 2,
-   "Text": "START OF TURN: Gain +1/+1 while in Ally Territory.",
+   "Text": "END OF TURN: Gain +1/+1 while in Ally Territory.",
    "IsGiant": false
  },
  {
@@ -2347,7 +2347,7 @@
    "ID": "EcF004",
    "Name": "Soul Foundry",
    "Type": "Fort",
-   "Cost": 3,
+   "Cost": 2,
    "Rarity": "Basic",
    "Collectible": true,
    "Forgeable": false,
@@ -2797,7 +2797,7 @@
    "ID": "StS008",
    "Name": "Grave Touch",
    "Type": "Spell",
-   "Cost": 2,
+   "Cost": 3,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -3886,7 +3886,7 @@
    "Power": 4,
    "Health": 4,
    "ManaFragments": 3,
-   "Text": "FLIGHT. This unit has +2 Power versus non-FLIGHT units and the enemy Stronghold.",
+   "Text": "FLIGHT. This unit has +2 Power versus the enemy Stronghold.",
    "IsGiant": false
  },
  {
@@ -4492,7 +4492,7 @@
    "Power": 6,
    "Health": 6,
    "ManaFragments": 3,
-   "Text": "SPAWN: HUSH all enemy units in this lane.",
+   "Text": "SPAWN: HUSH all non-Champion enemy units in this lane.",
    "IsGiant": false,
    "Race": "SHADOW"
  },
@@ -4684,7 +4684,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "TRAP: Owner of this fort: DRAW 1.",
+   "Text": "TRAP: Gain a copy of a random card from the opponent’s deck.",
    "IsGiant": false,
 
  },
@@ -5084,7 +5084,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "Damage the enemy Stronghold equal to the Mana Fragments you received this turn. The spell's cost is equal to the damage.",
+   "Text": "Damage the enemy Stronghold equal to the Mana Fragments of the last ally unit killed this turn. This spell's cost is equal to the unit's Mana Fragments.",
    "IsGiant": false,
 
  },
@@ -5188,7 +5188,7 @@
    "ID": "ESS009",
    "Name": "Crosswinds",
    "Type": "Spell",
-   "Cost": 3,
+   "Cost": 4,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -5780,7 +5780,7 @@
    "ID": "ESS024",
    "Name": "Mystic Array",
    "Type": "Spell",
-   "Cost": 5,
+   "Cost": 4,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -5868,7 +5868,7 @@
    "Power": 1,
    "Health": 1,
    "ManaFragments": 1,
-   "Text": "END OF TURN: HEAL ally units 1 in this lane.",
+   "Text": "SHIFT. END OF TURN: HEAL ally units 1 in this lane.",
    "IsGiant": false,
 
  },

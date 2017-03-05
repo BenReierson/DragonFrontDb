@@ -19,7 +19,7 @@ namespace DragonFrontDb.Enums
         THORNS = 5,
         SILENCE = 6,
         ESSENCE = 7,
-        UNKNOWN3 = 8,
+        DELIRIUM = 8,
     }
 
     public enum CardSet
