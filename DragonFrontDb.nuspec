@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DragonFrontDb</id>
-    <version>$version$-pre</version>
+    <version>$version$</version>
     <title>$title$</title>
     <authors>benreierson</authors>
     <owners>benreierson</owners>
@@ -10,7 +10,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
     <releaseNotes>
-      Prep for March 14th game update. Delirium faction added to enum (no cards yet).
+      Delirium faction added!
+      
       Existing card changes:
       ·   Canopy Goliath – END OF TURN: If this unit is in Ally Territory, gain +1/+1.
       o   Formerly START OF TURN

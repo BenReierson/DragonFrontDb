@@ -85,7 +85,9 @@ namespace DragonFrontDb.Enums
         REFRESH,
         MANA,
         SHIFT,
-        PUSH
+        PUSH,
+        PULL,
+        DRAIN,
     }
     
     public enum Race
@@ -99,7 +101,8 @@ namespace DragonFrontDb.Enums
         DRAGON = 6,
         SLAG = 7,
         SHADOW = 8,
-        GOLEM = 9
+        GOLEM = 9,
+        STARLING =10
     }
 
     public enum Rarity
