@@ -10,38 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
     <releaseNotes>
-      Delirium faction added!
-      
-      Existing card changes:
-      ·   Canopy Goliath – END OF TURN: If this unit is in Ally Territory, gain +1/+1.
-      o   Formerly START OF TURN
-
-      ·   Netherworld Guardian – SPAWN: HUSH all non-Champion enemy units in this lane.
-      o   Formerly HUSHed all units including Champions
-
-      ·   Terrene Menders – SHIFT. END OF TURN: HEAL ally units 1 in this lane.
-      o   Formerly did not include SHIFT
-
-      ·   Divebomb Griffin – FLIGHT. This unit has +2 Power versus the enemy Stronghold.
-      o   Formerly had +2 Power against non-flight units as well.
-
-      ·   Esoteric Rebuttal – Damage the enemy Stronghold equal to the Mana Fragments of the last ally unit killed this turn. This spell's cost is equal to the unit's Mana Fragments.
-      o   Formerly damaged the enemy stronghold equal to the mana fragments received during the turn. The spell’s cost was also equal to the damage done.
-      
-      ·   Listening Post – TRAP: Gain a copy of a random card from the opponent’s deck.
-      o   Formerly: TRAP: Owner of this fort: DRAW 1.
-
-      ·   Mystic Array - cost reduced to 4
-      o   Formerly cost 5
-
-      ·   Grave Touch – cost increased to 3.
-      o   Formerly cost 2
-
-      ·   Crosswinds – cost increased to 4.
-      o   Formerly cost 3
-
-      ·   Soul Foundry – card's cost decreased to 2.
-      o   Formerly cost 3
+      Merc Platoon is now a 3/3 that costs 5.
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
