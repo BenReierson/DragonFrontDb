@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
     <releaseNotes>
-      Merc Platoon is now a 3/3 that costs 5.
+      Merc Platoon now has 3 mana fragments (had two). 
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>

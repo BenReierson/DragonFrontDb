@@ -3562,7 +3562,7 @@
    "Faction": "Unaligned",
    "Power": 3,
    "Health": 3,
-   "ManaFragments": 2,
+   "ManaFragments": 3,
    "Text": "UNION. SPAWN: Deploy a 1/1 Mercenary in a random space in your spawn row.",
    "IsGiant": false
  },
