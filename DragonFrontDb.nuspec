@@ -10,7 +10,24 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
     <releaseNotes>
-      Merc Platoon now has 3 mana fragments (had two). 
+      Existing card updates:
+      •         Catalyst – Silence Spell – 2 mana: Deal 5 damage to a POISONED unit.
+      o   Formerly cost 3 mana
+
+      •         Poison Burn – Silence Spell – 3 mana: STUN all POISONED enemy units. –
+      o   Formerly cost 4 mana
+
+      •         Fast Leak – Unaligned Spell – 3 mana: DRAIN 2.
+      o   Formerly included DRAW 1
+
+      •         Feedback Murmur – Unaligned Fort – 4 mana: The first enemy non-Champion unit played by your opponent each turn costs [1] additional mana.
+      o   Formerly cost 3 mana
+
+      •         Focused Obliteration – Delirium Spell – 3 mana: Destroy an ally Starling unit in ally territory and deal damage equal to its Power to the opponent's Stronghold.
+      o   Formerly did not specify ally territory
+
+      •         Blaze of Glory – Strife Spell – 5 mana: Grant an ally unit +3/+3 until the end of the turn, then destroy it.
+      o   Formerly cost 4 mana
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
