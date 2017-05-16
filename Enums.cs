@@ -88,6 +88,7 @@ namespace DragonFrontDb.Enums
         PUSH,
         PULL,
         DRAIN,
+        COMMAND
     }
     
     public enum Race
