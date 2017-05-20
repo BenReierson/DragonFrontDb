@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DragonFrontDb.Enums;
 using Newtonsoft.Json;
+using System.Linq;
 
 namespace DragonFrontDb.Tests
 {
@@ -22,6 +23,13 @@ namespace DragonFrontDb.Tests
             var traits = Cards.TraitsDictionary;
 
             Assert.AreEqual(Enum.GetValues(typeof(Traits)).Length, traits.Count);
+        }
+
+        [TestMethod]
+        public void GetConquestSet()
+        {
+            var conquestSet = Cards.All.Where(c => c.CardSet == CardSet.CONQUEST);
+            Assert.AreEqual(7, conquestSet.Count());
         }
     }
 }

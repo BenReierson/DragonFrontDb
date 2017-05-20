@@ -27,6 +27,7 @@ namespace DragonFrontDb.Enums
         INVALID = 0,
         BLANK = 1,
         CORE = 2,
+        CONQUEST = 3
     }
 
     public enum CardType

@@ -77,7 +77,8 @@
    "Health": 4,
    "ManaFragments": 0,
    "Text": "SPAWN: Gain 2 Revelation Looms. SURVIVOR: Gain a Revelation Loom. DEATH: Destroy all played Revelation Looms.",
-   "IsGiant": false
+   "IsGiant": false,
+   "CardSet": "CONQUEST"
  },
  {
    "ID": "EcF001",
@@ -623,7 +624,8 @@
    "ManaFragments": 0,
    "Text": "SPAWN and DEATH: All enemy units lose 1 Power. COMMAND: All ally units have -1/+1",
    "IsGiant": false,
-   "Race" : "WARDEN"
+   "Race" : "WARDEN",
+   "CardSet": "CONQUEST"
  },
  {
    "ID": "ScF001",
@@ -1162,7 +1164,8 @@
    "ManaFragments": 0,
    "Text": "Whenever the enemy Stronghold is damaged, gain +1 Power. END OF TURN: Deal 1 damage to both Strongholds.",
    "IsGiant": false,
-   "Race" : "DRAGON"
+   "Race" : "DRAGON",
+   "CardSet": "CONQUEST"
  },
  {
    "ID": "StF005",
@@ -1693,6 +1696,7 @@
    "ManaFragments": 0,
    "Text": "RUSH. While this unit is in play, other allies gain +1/+1 in Enemy Territory.  COMMAND: This unit gains +1/+1 every time an ally enters Enemy Territory.",
    "IsGiant": false,
+   "CardSet": "CONQUEST"
  },
  {
    "ID": "ThF001",
@@ -4059,6 +4063,7 @@
    "ManaFragments": 0,
    "Text": "RANGE. COMMAND: When the opponent plays a spell, deploy a Stronghold Apostle in a random spawn row space, before the spell's effect.",
    "IsGiant": false,
+   "CardSet": "CONQUEST"
  },
  {
    "ID": "SiF001",
@@ -5098,6 +5103,7 @@
    "ManaFragments": 0,
    "Text": "FLIGHT. END OF TURN: Reduce the cost of all cards in owner’s hand by [1].",
    "IsGiant": false,
+   "CardSet": "CONQUEST"
  },
  {
    "ID": "ESF001",
@@ -6137,7 +6143,8 @@
    "ManaFragments": 0,
    "Text": "GIANT. Doesn't move when activated. END OF TURN: Move a random non-Giant enemy unit to any available open space directly in front of the Tyrant.",
    "IsGiant": true,
-   "Race": "Starling"
+   "Race": "Starling",
+   "CardSet": "CONQUEST"
  },
  {
    "ID": "DeF001",
