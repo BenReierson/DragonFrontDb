@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using DragonFrontDb.Enums;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -11,52 +10,31 @@ using Newtonsoft.Json;
 
 namespace DragonFrontDb
 {
-    public static class Cards
+    public class Cards
     {
+        public ReadOnlyDictionary<string, Card> CardDictionary { get; private set; }
+        public ReadOnlyDictionary<Traits, string> TraitsDictionary { get; private set; }
 
-        #region Extensions
-        private static Random rng = new Random();
-
-        public static void Shuffle<T>(this IList<T> list)
+        public ReadOnlyCollection<Card> All { get; private set; }
+        
+        /// <summary>
+        /// Create an instance of the cards database. By default, the built-in data is used.
+        /// </summary>
+        public static Cards Instance(string externalCardsArrayJson = null, string externalTraitsArrayJson = null)
         {
-            int n = list.Count;
-            while (n > 1)
-            {
-                n--;
-                int k = rng.Next(n + 1);
-                T value = list[k];
-                list[k] = list[n];
-                list[n] = value;
-            }
-        }
-        #endregion
+            var cardsJson = externalCardsArrayJson ?? GetResourceTextFile("AllCards.json");
+            var traitsJson = externalTraitsArrayJson ?? GetResourceTextFile("CardTraits.json");
 
-        public static readonly ReadOnlyDictionary<string, Card> CardDictionary;
-        public static readonly ReadOnlyDictionary<Traits, string> TraitsDictionary;
-
-        public static readonly ReadOnlyCollection<Card> All;
-        public static readonly ReadOnlyCollection<Card> AllThorns;
-        public static readonly ReadOnlyCollection<Card> AllStrife;
-        public static readonly ReadOnlyCollection<Card> AllScales;
-        public static readonly ReadOnlyCollection<Card> AllEclipse;
-        public static readonly ReadOnlyCollection<Card> AllSilence;
-        public static readonly ReadOnlyCollection<Card> AllEssence;
-        public static readonly ReadOnlyCollection<Card> AllDelirium;
-        public static readonly ReadOnlyCollection<Card> AllUnaligned;
-
-
-        static Cards()
-        {
             #region Parse Cards
-            var _allCardsMutable = ImportFromJson("AllCards.json").ToDictionary(k => k.ID, c => c);
+            var allCards = JsonConvert.DeserializeObject<List<Card>>(cardsJson);
+            var allCardsDictionary = allCards.ToDictionary(k => k.ID, c => c);
 
             //add traits based on card text 
-            //TODO:Remove this when all traits for each card are included in json
             var knownTraits = Enum.GetValues(typeof(Traits)).Cast<Traits>();
-            foreach (var card in _allCardsMutable)
+            foreach (var card in allCardsDictionary)
             {
                 var cardTraits = card.Value.Traits?.ToList() ?? new List<Traits>();
-                var traitText = card.Value.Text.Replace(" ", "_").Replace(":", "_").Replace(",", "_").Replace(".", "_").Insert(0, "_");
+                var traitText = card.Value.Text.Replace(' ', '_').Replace(':', '_').Replace(',', '_').Replace('.', '_').Insert(0, "_");
                 foreach (var trait in knownTraits)
                 {
                     if (!cardTraits.Contains(trait) &&
@@ -69,22 +47,17 @@ namespace DragonFrontDb
             #endregion
 
             #region Parse Trait Descriptions
-            var traitsJson = GetResourceTextFile("CardTraits.json");
             var mutableTraitDictionary = JsonConvert.DeserializeObject<Dictionary<Traits, string>>(traitsJson);
             #endregion
 
-            TraitsDictionary = new ReadOnlyDictionary<Traits, string>(mutableTraitDictionary);
-            CardDictionary = new ReadOnlyDictionary<string, Card>(_allCardsMutable);
-            All = new ReadOnlyCollection<Card>(_allCardsMutable.Values.ToList());
-            AllThorns = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.THORNS).ToList());
-            AllStrife = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.STRIFE).ToList());
-            AllEclipse = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.ECLIPSE).ToList());
-            AllScales = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.SCALES).ToList());
-            AllSilence = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.SILENCE).ToList());
-            AllEssence = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.ESSENCE).ToList());
-            AllDelirium = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.DELIRIUM).ToList());
-            AllUnaligned = new ReadOnlyCollection<Card>(All.Where((c) => c.Faction == Faction.UNALIGNED).ToList());
-            
+            var cards = new Cards
+            {
+                TraitsDictionary = new ReadOnlyDictionary<Traits, string>(mutableTraitDictionary),
+                CardDictionary = new ReadOnlyDictionary<string, Card>(allCardsDictionary),
+                All = new ReadOnlyCollection<Card>(allCards)
+            };
+
+            return cards;
         }
 
         private static List<Card> ImportFromJson(string filename)
@@ -109,6 +82,24 @@ namespace DragonFrontDb
                 }
             }
             return result;
+        }
+    }
+
+    public static class CardsExtensions
+    {
+        private static Random rng = new Random();
+
+        public static void Shuffle<T>(this IList<T> list)
+        {
+            int n = list.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = rng.Next(n + 1);
+                T value = list[k];
+                list[k] = list[n];
+                list[n] = value;
+            }
         }
     }
 }

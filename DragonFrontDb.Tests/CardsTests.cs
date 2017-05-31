@@ -12,7 +12,7 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void GetAllCards()
         {
-            var cards = Cards.All;
+            var cards = Cards.Instance().All;
 
             Assert.IsTrue(cards.Count > 0, "Where are the cards?!");
         }
@@ -20,7 +20,7 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void GetAllTraits()
         {
-            var traits = Cards.TraitsDictionary;
+            var traits = Cards.Instance().TraitsDictionary;
 
             Assert.AreEqual(Enum.GetValues(typeof(Traits)).Length, traits.Count);
         }
@@ -28,7 +28,7 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void GetConquestSet()
         {
-            var conquestSet = Cards.All.Where(c => c.CardSet == CardSet.CONQUEST);
+            var conquestSet = Cards.Instance().All.Where(c => c.CardSet == CardSet.CONQUEST);
             Assert.AreEqual(7, conquestSet.Count());
         }
     }
