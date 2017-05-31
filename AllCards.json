@@ -2218,7 +2218,7 @@
    "ID": "StF007",
    "Name": "Lava Vent",
    "Type": "Fort",
-   "Cost": 1,
+   "Cost": 2,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -2226,7 +2226,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "END OF TURN: Deal 2 damage randomly split among all units if occupied.",
+   "Text": "END OF TURN: If this Fort is occupied, deal 2 damage randomly split among all other units.",
    "IsGiant": false
  },
  {
@@ -2848,7 +2848,7 @@
    "ID": "StS007",
    "Name": "Repurpose",
    "Type": "Spell",
-   "Cost": 2,
+   "Cost": 0,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -2856,7 +2856,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "Destroy an ally unit and DRAW 3.",
+   "Text": "BLIGHT target ally unit, then destroy it. DRAW 2.",
    "IsGiant": false
  },
  {
@@ -3218,7 +3218,7 @@
    "Power": 1,
    "Health": 1,
    "ManaFragments": 1,
-   "Text": "RESPAWN a 1/1 Jelly.",
+   "Text": "RESPAWN a 0/1 Jelly.",
    "IsGiant": false
  },
  {
@@ -6037,12 +6037,12 @@
    "ID": "ESU023",
    "Name": "Clockwork Drake",
    "Type": "Unit",
-   "Cost": 6,
+   "Cost": 7,
    "Rarity": "Epic",
    "Collectible": true,
    "Forgeable": true,
    "Faction": "Unaligned",
-   "Power": 5,
+   "Power": 4,
    "Health": 4,
    "ManaFragments": 3,
    "Text": "FLIGHT. SPAWN: Deal 1 damage to all other units.",
