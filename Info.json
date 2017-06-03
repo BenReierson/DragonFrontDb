@@ -1,0 +1,26 @@
+﻿{
+  "DragonFontDbVersion": {
+    "Major": 2,
+    "Minor": 0,
+    "Build": 0,
+  },
+  "DragonFrontVersion": {
+    "Major": 2,
+    "Minor": 0,
+    "Build": 0,
+  },
+  "CardDataVersion": {
+    "Major": 2,
+    "Minor": 0,
+    "Build": 0,
+  },
+  "CardDataCompatibleVersion": {
+    "Major": 1,
+    "Minor": 0,
+    "Build": 0,
+  },
+  "CardDataName": "Default",
+  "CardDataChangeLog": {
+    "2.0.0": "Conquest Champions Added"
+  }
+}

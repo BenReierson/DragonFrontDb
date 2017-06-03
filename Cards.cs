@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using DragonFrontDb.Enums;
 using System.Collections.ObjectModel;
-using System.IO;
-using System.Reflection;
 using Newtonsoft.Json;
 
 namespace DragonFrontDb
@@ -22,8 +19,8 @@ namespace DragonFrontDb
         /// </summary>
         public static Cards Instance(string externalCardsArrayJson = null, string externalTraitsArrayJson = null)
         {
-            var cardsJson = externalCardsArrayJson ?? GetResourceTextFile("AllCards.json");
-            var traitsJson = externalTraitsArrayJson ?? GetResourceTextFile("CardTraits.json");
+            var cardsJson = externalCardsArrayJson ?? Helper.GetResourceTextFile("AllCards.json");
+            var traitsJson = externalTraitsArrayJson ?? Helper.GetResourceTextFile("CardTraits.json");
 
             #region Parse Cards
             var allCards = JsonConvert.DeserializeObject<List<Card>>(cardsJson);
@@ -62,27 +59,13 @@ namespace DragonFrontDb
 
         private static List<Card> ImportFromJson(string filename)
         {
-            var json = GetResourceTextFile(filename);
+            var json = Helper.GetResourceTextFile(filename);
 
             var cards = JsonConvert.DeserializeObject<List<Card>>(json);
 
             return cards;
         }
-
-
-        private static string GetResourceTextFile(string filename)
-        {
-            string result = string.Empty;
-
-            using (Stream stream = typeof(Card).GetTypeInfo().Assembly.GetManifestResourceStream("DragonFrontDb." + filename))
-            {
-                using (StreamReader sr = new StreamReader(stream))
-                {
-                    result = sr.ReadToEnd();
-                }
-            }
-            return result;
-        }
+        
     }
 
     public static class CardsExtensions

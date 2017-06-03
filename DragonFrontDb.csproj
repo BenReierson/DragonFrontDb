@@ -37,6 +37,7 @@
     <Compile Include="Card.cs" />
     <Compile Include="Cards.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="Helper.cs" />
     <Compile Include="Info.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -46,6 +47,7 @@
   <ItemGroup>
     <EmbeddedResource Include="CardTraits.json" />
     <None Include="DragonFrontDb.nuspec" />
+    <EmbeddedResource Include="Info.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
