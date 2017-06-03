@@ -22,5 +22,6 @@
   "CardDataName": "Default",
   "CardDataChangeLog": {
     "2.0.0": "Conquest Champions Added"
-  }
+  },
+  "CardDataStatus": "RELEASE"
 }

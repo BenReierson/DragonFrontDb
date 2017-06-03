@@ -64,6 +64,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="TestCards.json" />
+    <EmbeddedResource Include="TestTraits.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

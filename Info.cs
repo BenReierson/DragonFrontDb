@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using DragonFrontDb.Enums;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,8 @@ namespace DragonFrontDb
         public Version CardDataCompatibleVersion { get; set;}
 
         public string CardDataName { get; set; }
+
+        public DataStatus CardDataStatus { get; set; }
 
         public Dictionary<Version, string> CardDataChangeLog { get; set; }
 

@@ -134,4 +134,11 @@ namespace DragonFrontDb.Enums
         EPIC = 400,
         CHAMPION = 0
     }
+
+    public enum DataStatus
+    {
+        RELEASE = 0,
+        PREVIEW = 1,
+        UNKNOWN = 2,
+    }
 }
