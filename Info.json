@@ -19,7 +19,7 @@
     "Minor": 0,
     "Build": 0,
   },
-  "CardDataName": "Conquest Champions",
+  "CardDataName": "Test Invalid Card",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/v2_test/AllCards.json",
   "CardDataChangeLog": {
     "2.0.1": "Test Card",
