@@ -1,4 +1,21 @@
 ﻿[
+  {
+   "ID": "Test001",
+   "Name": "Test",
+   "Type": "Invalid",
+   "Cost": 0,
+   "Rarity": "Invalid",
+   "Collectible": false,
+   "Forgeable": false,
+   "Faction": "Invalid",
+   "Power": 0,
+   "Health": 0,
+   "ManaFragments": 0,
+   "Text": "Test card with COMMAND.",
+   "FlavorText": "Test flavor",
+   "IsGiant": false,
+   "Race" : "None"
+ },
  {
    "ID": "EcC001",
    "Name": "Gajji Necromancer ",
