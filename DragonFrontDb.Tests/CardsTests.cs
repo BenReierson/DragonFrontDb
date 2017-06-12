@@ -14,7 +14,7 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void GetAllCards()
         {
-            var cards = Cards.Instance().All;
+            var cards = new Cards().All;
 
             Assert.IsTrue(cards.Count > 0, "Where are the cards?!");
         }
@@ -22,7 +22,7 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void GetAllTraits()
         {
-            var traits = Cards.Instance().TraitsDictionary;
+            var traits = new Cards().TraitsDictionary;
 
             Assert.AreEqual(Enum.GetValues(typeof(Traits)).Length, traits.Count);
         }
@@ -30,7 +30,7 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void GetConquestSet()
         {
-            var conquestSet = Cards.Instance().All.Where(c => c.CardSet == CardSet.CONQUEST);
+            var conquestSet = new Cards().All.Where(c => c.CardSet == CardSet.CONQUEST);
             Assert.AreEqual(7, conquestSet.Count());
         }
 
@@ -44,9 +44,9 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void TestLoadExternalCardData()
         {
-            var defaultCards = Cards.Instance();
+            var defaultCards = new Cards();
             var externalJson = GetResourceTextFile("TestCards.json");
-            var externalCards = Cards.Instance(externalJson);
+            var externalCards = new Cards(externalJson);
 
             Assert.AreNotEqual(defaultCards, externalCards);
             Assert.AreNotEqual(defaultCards.All[0], externalCards.All[0]);
@@ -56,9 +56,9 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void TestLoadExternalTraits()
         {
-            var defaultTraits = Cards.Instance().TraitsDictionary;
+            var defaultTraits = new Cards().TraitsDictionary;
             var externalJson = GetResourceTextFile("TestTraits.json");
-            var externalTraits = Cards.Instance(externalTraitsArrayJson: externalJson).TraitsDictionary;
+            var externalTraits = new Cards(externalTraitsArrayJson: externalJson).TraitsDictionary;
 
             Assert.AreEqual(Traits._SPAWN, externalTraits.First().Key);
             Assert.AreEqual("Test", externalTraits.First().Value);
@@ -67,13 +67,13 @@ namespace DragonFrontDb.Tests
         [TestMethod]
         public void TestExternalCardAndTraitsData()
         {
-            var defaultCards = Cards.Instance();
+            var defaultCards = new Cards();
             var externalJson = GetResourceTextFile("TestCards.json");
-            var externalCards = Cards.Instance(externalJson);
+            var externalCards = new Cards(externalJson);
 
-            var defaultTraits = Cards.Instance().TraitsDictionary;
+            var defaultTraits = new Cards().TraitsDictionary;
             externalJson = GetResourceTextFile("TestTraits.json");
-            var externalTraits = Cards.Instance(externalTraitsArrayJson: externalJson).TraitsDictionary;
+            var externalTraits = new Cards(externalTraitsArrayJson: externalJson).TraitsDictionary;
 
 
             Assert.AreNotEqual(defaultCards, externalCards);

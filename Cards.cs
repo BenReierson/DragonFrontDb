@@ -9,26 +9,35 @@ namespace DragonFrontDb
 {
     public class Cards
     {
-        public ReadOnlyDictionary<string, Card> CardDictionary { get; private set; }
-        public ReadOnlyDictionary<Traits, string> TraitsDictionary { get; private set; }
+        public readonly ReadOnlyDictionary<string, Card> CardDictionary;
+        public readonly ReadOnlyDictionary<Traits, string> TraitsDictionary;
 
-        public ReadOnlyCollection<Card> All { get; private set; }
+        public readonly ReadOnlyCollection<Card> All;
         
         /// <summary>
         /// Create an instance of the cards database. By default, the built-in data is used.
         /// </summary>
-        public static Cards Instance(string externalCardsArrayJson = null, string externalTraitsArrayJson = null)
+        public Cards(string externalCardsArrayJson = null, string externalTraitsArrayJson = null)
         {
             var cardsJson = externalCardsArrayJson ?? Helper.GetResourceTextFile("AllCards.json");
             var traitsJson = externalTraitsArrayJson ?? Helper.GetResourceTextFile("CardTraits.json");
 
-            #region Parse Cards
             var allCards = JsonConvert.DeserializeObject<List<Card>>(cardsJson);
-            var allCardsDictionary = allCards.ToDictionary(k => k.ID, c => c);
+            All = new ReadOnlyCollection<Card>(allCards);
 
+            var allCardsDictionary = allCards.ToDictionary(k => k.ID, c => c);
+            CardDictionary = new ReadOnlyDictionary<string, Card>(allCardsDictionary);
+
+            ParseTraits(allCardsDictionary);
+            var mutableTraitDictionary = JsonConvert.DeserializeObject<Dictionary<Traits, string>>(traitsJson);
+            TraitsDictionary = new ReadOnlyDictionary<Traits, string>(mutableTraitDictionary);
+        }
+
+        private static void ParseTraits(Dictionary<string, Card> cardsDictionary)
+        {
             //add traits based on card text 
             var knownTraits = Enum.GetValues(typeof(Traits)).Cast<Traits>();
-            foreach (var card in allCardsDictionary)
+            foreach (var card in cardsDictionary)
             {
                 var cardTraits = card.Value.Traits?.ToList() ?? new List<Traits>();
                 var traitText = card.Value.Text.Replace(' ', '_').Replace(':', '_').Replace(',', '_').Replace('.', '_').Insert(0, "_");
@@ -41,20 +50,6 @@ namespace DragonFrontDb
                 if (card.Value.IsGiant && !cardTraits.Contains(Traits.GIANT)) cardTraits.Add(Traits.GIANT);
                 card.Value.Traits = cardTraits.ToArray();
             }
-            #endregion
-
-            #region Parse Trait Descriptions
-            var mutableTraitDictionary = JsonConvert.DeserializeObject<Dictionary<Traits, string>>(traitsJson);
-            #endregion
-
-            var cards = new Cards
-            {
-                TraitsDictionary = new ReadOnlyDictionary<Traits, string>(mutableTraitDictionary),
-                CardDictionary = new ReadOnlyDictionary<string, Card>(allCardsDictionary),
-                All = new ReadOnlyCollection<Card>(allCards)
-            };
-
-            return cards;
         }
 
         private static List<Card> ImportFromJson(string filename)
