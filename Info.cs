@@ -20,6 +20,8 @@ namespace DragonFrontDb
 
         public string CardDataName { get; set; }
 
+        public string CardDataUrl { get; set; }
+
         public DataStatus CardDataStatus { get; set; }
 
         public Dictionary<Version, string> CardDataChangeLog { get; set; }
