@@ -10,18 +10,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
     <releaseNotes>
-      Existing card updates:
-      •         Repurpose – 0 Cost unaligned spell. BLIGHT target ally unit, then destroy it.  DRAW 2.
-      o   Formerly cost 2, did not BLIGHT the target unit and had DRAW 3.
-
-      •         Lava Vent – 2 Cost unaligned fort. END OF TURN: If this Fort is occupied, deal 2 damage randomly split among all other units.
-      o   Formerly cost 1 and did not include “other”, and had the potential to damage the occupying unit.
-
-      •         Jelly (token) - RESPAWN: [0/1] Jelly.
-      o   Formerly, this token was a [1/1] Jelly.
-
-      •         Clockwork Drake – 7/4/4 unit with FLIGHT and a board-damaging Spawn
-      o   Formerly 6/5/4.
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
