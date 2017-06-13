@@ -27,7 +27,8 @@ namespace DragonFrontDb.Enums
         INVALID = 0,
         BLANK = 1,
         CORE = 2,
-        CONQUEST = 3
+        CONQUEST = 3,
+        NEXT = 4
     }
 
     public enum CardType
@@ -133,5 +134,12 @@ namespace DragonFrontDb.Enums
         RARE = 200,
         EPIC = 400,
         CHAMPION = 0
+    }
+
+    public enum DataStatus
+    {
+        RELEASE = 0,
+        PREVIEW = 1,
+        UNKNOWN = 2,
     }
 }

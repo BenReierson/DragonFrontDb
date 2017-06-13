@@ -10,18 +10,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>DragonFrontDb is a .NET database for data from Dragon Front</description>
     <releaseNotes>
-      Existing card updates:
-      •         Repurpose – 0 Cost unaligned spell. BLIGHT target ally unit, then destroy it.  DRAW 2.
-      o   Formerly cost 2, did not BLIGHT the target unit and had DRAW 3.
+      This version includes several breaking changes to the Cards and Info classes. Data formats for AllCards.json and AllTraits.json did not change, so remain compatible with 1.x versions.
 
-      •         Lava Vent – 2 Cost unaligned fort. END OF TURN: If this Fort is occupied, deal 2 damage randomly split among all other units.
-      o   Formerly cost 1 and did not include “other”, and had the potential to damage the occupying unit.
-
-      •         Jelly (token) - RESPAWN: [0/1] Jelly.
-      o   Formerly, this token was a [1/1] Jelly.
-
-      •         Clockwork Drake – 7/4/4 unit with FLIGHT and a board-damaging Spawn
-      o   Formerly 6/5/4.
+      - Info class now supplies card data version information and download url.
+      - Removed unused properties on Cards class
+      - Cards class is no longer static and now supports instantiation with external card data (uses embedded data by default).
+      - updated to json.net 10.x
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>dragonfront cards database</tags>
