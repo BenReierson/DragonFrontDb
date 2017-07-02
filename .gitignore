@@ -242,3 +242,4 @@ ModelManifest.xml
 .fake/
 /NugetPublish.cmd
 /NugetPackage.cmd
+NugetPublish.sh
