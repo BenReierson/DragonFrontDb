@@ -19,7 +19,7 @@
     "Minor": 0,
     "Build": 0,
   },
-  "CardDataName": "Conquest Champions",
+  "CardDataName": "Dual Faction Support",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
   "CardDataChangeLog": {
     "2.1.0": "Dual Faction Cards Added",
