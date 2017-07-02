@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonFrontDb", "DragonFrontDb.csproj", "{3CA24C15-163C-4C43-B5B9-10F0F6B080CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonFrontDb.Tests", "DragonFrontDb.Tests\DragonFrontDb.Tests.csproj", "{A8A7A5E0-B1B5-4053-B65A-9B1780DED26C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonFrontDb.Tests", "DragonFrontDb.Tests\DragonFrontDb.Tests.csproj", "{1C4CD15A-4363-4171-A196-B9C82B20CC1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3CA24C15-163C-4C43-B5B9-10F0F6B080CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA24C15-163C-4C43-B5B9-10F0F6B080CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA24C15-163C-4C43-B5B9-10F0F6B080CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8A7A5E0-B1B5-4053-B65A-9B1780DED26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8A7A5E0-B1B5-4053-B65A-9B1780DED26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8A7A5E0-B1B5-4053-B65A-9B1780DED26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8A7A5E0-B1B5-4053-B65A-9B1780DED26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4CD15A-4363-4171-A196-B9C82B20CC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4CD15A-4363-4171-A196-B9C82B20CC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4CD15A-4363-4171-A196-B9C82B20CC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4CD15A-4363-4171-A196-B9C82B20CC1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
