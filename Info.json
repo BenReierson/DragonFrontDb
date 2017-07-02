@@ -11,7 +11,7 @@
   },
   "CardDataVersion": {
     "Major": 2,
-    "Minor": 0,
+    "Minor": 1,
     "Build": 0,
   },
   "CardDataCompatibleVersion": {
@@ -22,7 +22,8 @@
   "CardDataName": "Conquest Champions",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
   "CardDataChangeLog": {
+    "2.1.0": "Dual Faction Cards Added",
     "2.0.0": "Conquest Champions Added"
   },
-  "CardDataStatus": "RELEASE"
+  "CardDataStatus": "PREVIEW"
 }
