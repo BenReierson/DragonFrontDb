@@ -32,6 +32,15 @@ namespace DragonFrontDb
         [JsonConverter(typeof(StringEnumConverter))]
         public Faction Faction { get; internal set; }
 
+        private Faction[] _validFactions;
+		[JsonProperty(ItemConverterType = typeof(StringEnumConverter))]
+		public Faction[] ValidFactions {
+            get => _validFactions ?? 
+                  (_validFactions = Faction != Faction.UNALIGNED ? new Faction[] { Faction } : 
+                                    Enum.GetValues(typeof(Faction)).Cast<Faction>().Skip(2).ToArray());
+            internal set => _validFactions = value;
+        }
+
         [JsonProperty]
         public bool Collectible { get; internal set; }
 

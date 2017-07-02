@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1C4CD15A-4363-4171-A196-B9C82B20CC1E}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>DragonFrontDB.Test</RootNamespace>
+    <RootNamespace>DragonFrontDb.Tests</RootNamespace>
     <AssemblyName>DragrontFrontDB.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
@@ -41,11 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TestCards.json">
-      <LogicalName>DragonFrontDb.Tests.TestCards.json</LogicalName>
     </EmbeddedResource>
     <EmbeddedResource Include="TestTraits.json">
-      <LogicalName>DragonFrontDb.Tests.TestTraits.json</LogicalName>
     </EmbeddedResource>
+    <EmbeddedResource Include="TestCardsFactions.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DragonFrontDb.csproj">
