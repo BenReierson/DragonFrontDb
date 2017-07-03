@@ -14,7 +14,8 @@
     "ManaFragments": 0,
     "Text": "This champion has two factions.",
     "IsGiant": false,
-    "Race": "None"
+    "Race": "None",
+    "CardSet": "NEXT"
   },
  {
    "ID": "EcC001",
