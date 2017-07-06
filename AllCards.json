@@ -4061,7 +4061,7 @@
    "Power": 5,
    "Health": 5,
    "ManaFragments": 0,
-   "Text": "RANGE. COMMAND: When the opponent plays a spell, deploy a Stronghold Apostle in a random spawn row space, before the spell's effect.",
+   "Text": "RANGE. COMMAND: When the opponent plays a spell, add a [2/3] Brave Soul to your hand.",
    "IsGiant": false,
    "CardSet": "CONQUEST"
  },

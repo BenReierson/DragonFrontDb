@@ -12,16 +12,17 @@
   "CardDataVersion": {
     "Major": 2,
     "Minor": 0,
-    "Build": 0,
+    "Build": 1,
   },
   "CardDataCompatibleVersion": {
     "Major": 1,
     "Minor": 0,
     "Build": 0,
   },
-  "CardDataName": "Conquest Champions",
+  "CardDataName": "August Sultan updated",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
   "CardDataChangeLog": {
+    "2.0.1": "August Sultan updated",
     "2.0.0": "Conquest Champions Added"
   },
   "CardDataStatus": "RELEASE"
