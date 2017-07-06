@@ -36,7 +36,7 @@
  {
    "ID": "Test003",
    "Name": "Test token fort silence",
-   "Type": "Unit",
+   "Type": "Fort",
    "Cost": 0,
    "Rarity": "Invalid",
    "Collectible": false,
@@ -45,10 +45,13 @@
    "Power": 0,
    "Health": 0,
    "ManaFragments": 0,
-   "Text": "TOKEN",
+   "Text": "",
    "FlavorText": "Test flavor",
    "IsGiant": false,
-   "Race" : "None"
+   "Race" : "None",
+   "Traits": [
+        "TOKEN"
+    ]
  },
  {
    "ID": "EcC001",
