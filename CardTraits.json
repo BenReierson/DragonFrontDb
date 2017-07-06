@@ -37,5 +37,6 @@
   "SHIFT": "Move a unit left or right into the next Lane, as long as it is open (No Walls or Units). Counts as movement, and is followed up by an attack to Units in front of moved unit's new space.",
   "PULL": "Move the targeted unit 1 space towards the owner of the ability's Stronghold. This does not count as a move action.",
   "DRAIN": "Your opponent loses X Mana and you gain the amount of Mana lost.",
-  "COMMAND": "Champions generate this effect while they are on the stronghold podium."
+  "COMMAND": "Champions generate this effect while they are on the stronghold podium.",
+  "TOKEN": "Token is an unofficial term for uncollectible units that are created or summoned into play by other cards." 
 }
