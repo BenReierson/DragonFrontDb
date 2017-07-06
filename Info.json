@@ -21,7 +21,7 @@
   },
   "CardDataName": "Token support added",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
-  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllTraits.json",
+  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
     "2.0.2": "Token support added",
     "2.0.1": "August Sultan updated",
