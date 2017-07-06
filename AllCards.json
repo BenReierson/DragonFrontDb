@@ -1,4 +1,58 @@
 ﻿[
+  {
+   "ID": "Test001",
+   "Name": "Test",
+   "Type": "Invalid",
+   "Cost": 0,
+   "Rarity": "Invalid",
+   "Collectible": false,
+   "Forgeable": false,
+   "Faction": "Invalid",
+   "Power": 0,
+   "Health": 0,
+   "ManaFragments": 0,
+   "Text": "Test card with COMMAND.",
+   "FlavorText": "Test flavor",
+   "IsGiant": false,
+   "Race" : "None"
+ },
+ {
+   "ID": "Test002",
+   "Name": "Test token unit unaligned",
+   "Type": "Unit",
+   "Cost": 0,
+   "Rarity": "Invalid",
+   "Collectible": false,
+   "Forgeable": false,
+   "Faction": "Unaligned",
+   "Power": 0,
+   "Health": 0,
+   "ManaFragments": 0,
+   "Text": "TOKEN. Test card with COMMAND.",
+   "FlavorText": "Test flavor",
+   "IsGiant": false,
+   "Race" : "None"
+ },
+ {
+   "ID": "Test003",
+   "Name": "Test token fort silence",
+   "Type": "Unit",
+   "Cost": 0,
+   "Rarity": "Invalid",
+   "Collectible": false,
+   "Forgeable": false,
+   "Faction": "Silence",
+   "Power": 0,
+   "Health": 0,
+   "ManaFragments": 0,
+   "Text": "",
+   "FlavorText": "Test flavor",
+   "IsGiant": false,
+   "Race" : "None",
+    "Traits": [
+        "TOKEN"
+    ]
+ },
  {
    "ID": "EcC001",
    "Name": "Gajji Necromancer ",
