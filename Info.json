@@ -15,9 +15,9 @@
     "Build": 2,
   },
   "CardDataCompatibleVersion": {
-    "Major": 1,
+    "Major": 2,
     "Minor": 0,
-    "Build": 0,
+    "Build": 2,
   },
   "CardDataName": "Token support added",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/tokens/AllCards.json",
