@@ -56,8 +56,8 @@ namespace DragonFrontDb
         [JsonProperty]
         public string ID { get; internal set; }
 
-        [JsonProperty(ItemConverterType = typeof(StringEnumConverter))]
-        public Traits[] Traits { get; internal set; }
+		[JsonProperty]
+		public List<string> Traits { get; internal set; }
 
         [JsonProperty]
         public string Power { get; internal set; }

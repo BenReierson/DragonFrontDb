@@ -59,7 +59,7 @@ namespace DragonFrontDb.Tests
             var externalJson = GetResourceTextFile("TestTraits.json");
             var externalTraits = new Cards(externalTraitsArrayJson: externalJson).TraitsDictionary;
 
-            Assert.AreEqual(Traits._SPAWN, externalTraits.First().Key);
+            Assert.AreEqual(Traits._SPAWN.ToString(), externalTraits.First().Key);
             Assert.AreEqual("Test", externalTraits.First().Value);
         }
 
@@ -80,8 +80,8 @@ namespace DragonFrontDb.Tests
             Assert.AreEqual("Test001", externalCards.All[0].ID);
 
             Assert.AreEqual("Test", externalTraits.First().Value);
-            Assert.AreEqual(Traits._SPAWN, externalTraits.First().Key);
-            Assert.AreEqual(Traits._SPAWN, externalCards.CardDictionary["Test001"].Traits[0]);
+            Assert.AreEqual(Traits._SPAWN.ToString(), externalTraits.First().Key);
+            Assert.AreEqual(Traits._SPAWN.ToString(), externalCards.CardDictionary["Test001"].Traits[0]);
         }
 
 
