@@ -7120,6 +7120,9 @@
     "ManaFragments": 0,
     "Text": "N/A",
     "IsGiant": false,
-    "Race": "Stygian"
+    "Race": "Stygian",
+    "Traits": [
+      "TOKEN"
+    ]
   },
 ]
