@@ -7090,20 +7090,36 @@
    "IsGiant": false,
 
  },
- {
-   "ID": "DeU031",
-   "Name": "Drifting Silence",
-   "Type": "Unit",
-   "Cost": 7,
-   "Rarity": "Epic",
-   "Collectible": true,
-   "Forgeable": true,
-   "Faction": "Delirium",
-   "Power": 4,
-   "Health": 7,
-   "ManaFragments": 3,
-   "Text": "When this unit takes an action add a 0/2 Creeper to your hand.",
-   "IsGiant": false,
-   "Race": "Starling"
- }
+  {
+    "ID": "DeU031",
+    "Name": "Drifting Silence",
+    "Type": "Unit",
+    "Cost": 7,
+    "Rarity": "Epic",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Delirium",
+    "Power": 4,
+    "Health": 7,
+    "ManaFragments": 3,
+    "Text": "When this unit takes an action add a 0/2 Creeper to your hand.",
+    "IsGiant": false,
+    "Race": "Starling"
+  },
+  {
+    "ID": "ToU001",
+    "Name": "Animated Stygian",
+    "Type": "Unit",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Eclipse",
+    "Power": 1,
+    "Health": 1,
+    "ManaFragments": 0,
+    "Text": "N/A",
+    "IsGiant": false,
+    "Race": "Stygian"
+  },
 ]

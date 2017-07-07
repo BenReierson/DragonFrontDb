@@ -125,6 +125,13 @@ namespace DragonFrontDb.Tests
 			Assert.Contains(Faction.DELIRIUM, tripleFactionChamp.ValidFactions);
 		}
 
+        [Test]
+        public void TestTokens()
+        {
+			var tokens = new Cards().All.Where(c=>c.Rarity == Rarity.TOKEN);
+            Assert.IsTrue(tokens.Any());
+		}
+
         internal static string GetResourceTextFile(string filename)
         {
             string result = string.Empty;
