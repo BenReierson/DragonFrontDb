@@ -7120,7 +7120,6 @@
    "ManaFragments": 0,
    "Text": "WALL.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7137,7 +7136,6 @@
    "ManaFragments": 0,
    "Text": "N/A",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7154,7 +7152,6 @@
    "ManaFragments": 0,
    "Text": "TRAP: Deal 2 damage to unit and destroy this fort. Spawn a 1/1 Stygian if this kills a unit.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7171,7 +7168,6 @@
    "ManaFragments": 0,
    "Text": "Ally Champion gains +1/+1 while this fort is in play. DEATH: If this fort’s space is unoccupied, RESPAWN a Spiders of Scythe.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7188,7 +7184,6 @@
    "ManaFragments": 0,
    "Text": "WALL.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7205,7 +7200,6 @@
    "ManaFragments": 0,
    "Text": "Deal 1 damage to a unit.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7222,7 +7216,6 @@
    "ManaFragments": 0,
    "Text": "DRAW 1.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7239,7 +7232,6 @@
    "ManaFragments": 0,
    "Text": "Grant an ally unit +1/+1.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7273,7 +7265,6 @@
    "ManaFragments": 0,
    "Text": "RUSH.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7290,7 +7281,6 @@
    "ManaFragments": 0,
    "Text": "When this unit takes damage, gain 1 Champion Token.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7307,7 +7297,6 @@
    "ManaFragments": 0,
    "Text": "SPAWN: Deal 2 damage to all enemy units in Ally Territory.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7341,7 +7330,6 @@
    "ManaFragments": 0,
    "Text": "N/A",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7358,7 +7346,6 @@
    "ManaFragments": 0,
    "Text": "N/A",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7375,7 +7362,6 @@
    "ManaFragments": 0,
    "Text": "UNION.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {
@@ -7392,7 +7378,6 @@
    "ManaFragments": 0,
    "Text": "DEATH: STUN the unit directly in front of this one.",
    "IsGiant": false,
-   "Race": "",
    "Traits": ["TOKEN"]
  },
  {

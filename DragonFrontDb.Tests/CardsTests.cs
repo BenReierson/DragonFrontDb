@@ -128,8 +128,10 @@ namespace DragonFrontDb.Tests
         [Test]
         public void TestTokens()
         {
-			var tokens = new Cards().All.Where(c=>c.Rarity == Rarity.TOKEN);
+            var allCards = new Cards().All;
+			var tokens = allCards.Where(c=>c.Rarity == Rarity.TOKEN);
             Assert.IsTrue(tokens.Any());
+            Assert.AreEqual(tokens.Count(), allCards.Count(c => c.Traits.Contains(Traits.TOKEN.ToString())));
 		}
 
         internal static string GetResourceTextFile(string filename)

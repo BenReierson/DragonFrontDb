@@ -19,13 +19,13 @@
     "Minor": 1,
     "Build": 0
   },
-  "CardDataName": "Token card support",
-  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/development/AllCards.json",
-  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/development/CardTraits.json",
+  "CardDataName": "Token cards",
+  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
+  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
-    "2.1.0": "Token card support added",
+    "2.1.0": "Token cards added",
     "2.0.1": "August Sultan updated",
     "2.0.0": "Conquest Champions Added"
   },
-  "CardDataStatus": "PREVIEW"
+  "CardDataStatus": "RELEASE"
 }
