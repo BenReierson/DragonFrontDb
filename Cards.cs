@@ -10,7 +10,7 @@ namespace DragonFrontDb
     public class Cards
     {
         public readonly ReadOnlyDictionary<string, Card> CardDictionary;
-        public readonly ReadOnlyDictionary<Traits, string> TraitsDictionary;
+        public readonly ReadOnlyDictionary<string, string> TraitsDictionary;
 
         public readonly ReadOnlyCollection<Card> All;
         
@@ -28,27 +28,25 @@ namespace DragonFrontDb
             var allCardsDictionary = allCards.ToDictionary(k => k.ID, c => c);
             CardDictionary = new ReadOnlyDictionary<string, Card>(allCardsDictionary);
 
-            ParseTraits(allCardsDictionary);
-            var mutableTraitDictionary = JsonConvert.DeserializeObject<Dictionary<Traits, string>>(traitsJson);
-            TraitsDictionary = new ReadOnlyDictionary<Traits, string>(mutableTraitDictionary);
-        }
+            var mutableTraitDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(traitsJson);
+            TraitsDictionary = new ReadOnlyDictionary<string, string>(mutableTraitDictionary);
 
-        private static void ParseTraits(Dictionary<string, Card> cardsDictionary)
+			ParseTraits(allCardsDictionary, TraitsDictionary);
+		}
+
+        private static void ParseTraits(Dictionary<string, Card> cardsDictionary, ReadOnlyDictionary<string, string> traits)
         {
             //add traits based on card text 
-            var knownTraits = Enum.GetValues(typeof(Traits)).Cast<Traits>();
             foreach (var card in cardsDictionary)
             {
-                var cardTraits = card.Value.Traits?.ToList() ?? new List<Traits>();
+                var cardTraits = card.Value.Traits ?? new List<string>();
                 var traitText = card.Value.Text.Replace(' ', '_').Replace(':', '_').Replace(',', '_').Replace('.', '_').Insert(0, "_");
-                foreach (var trait in knownTraits)
+                foreach (var trait in traits.Keys)
                 {
-                    if (!cardTraits.Contains(trait) &&
-                        traitText.Contains(Enum.GetName(typeof(Traits), trait)))
-                    { cardTraits.Add(trait); }
+                    if (!cardTraits.Contains(trait) && traitText.Contains(trait)) cardTraits.Add(trait); 
                 }
-                if (card.Value.IsGiant && !cardTraits.Contains(Traits.GIANT)) cardTraits.Add(Traits.GIANT);
-                card.Value.Traits = cardTraits.ToArray();
+                if (card.Value.IsGiant && !cardTraits.Contains("GIANT")) cardTraits.Add("GIANT");
+                card.Value.Traits = cardTraits;
             }
         }
 

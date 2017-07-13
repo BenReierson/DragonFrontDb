@@ -90,7 +90,8 @@ namespace DragonFrontDb.Enums
         PUSH,
         PULL,
         DRAIN,
-        COMMAND
+        COMMAND,
+        TOKEN
     }
     
     public enum Race
@@ -115,7 +116,8 @@ namespace DragonFrontDb.Enums
         COMMON = 2,
         RARE = 3,
         EPIC = 4,
-        CHAMPION = 5
+        CHAMPION = 5,
+        TOKEN = 6
     }
 
     public enum CardScrapPrice

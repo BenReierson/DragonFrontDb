@@ -20,7 +20,9 @@ namespace DragonFrontDb
 
         public string CardDataName { get; set; }
 
-        public string CardDataUrl { get; set; }
+		public string CardDataUrl { get; set; }
+
+		public string CardTraitsUrl { get; set; }
 
         public DataStatus CardDataStatus { get; set; }
 

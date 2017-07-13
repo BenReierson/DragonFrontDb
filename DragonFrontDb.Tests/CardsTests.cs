@@ -59,7 +59,7 @@ namespace DragonFrontDb.Tests
             var externalJson = GetResourceTextFile("TestTraits.json");
             var externalTraits = new Cards(externalTraitsArrayJson: externalJson).TraitsDictionary;
 
-            Assert.AreEqual(Traits._SPAWN, externalTraits.First().Key);
+            Assert.AreEqual(Traits._SPAWN.ToString(), externalTraits.First().Key);
             Assert.AreEqual("Test", externalTraits.First().Value);
         }
 
@@ -80,8 +80,8 @@ namespace DragonFrontDb.Tests
             Assert.AreEqual("Test001", externalCards.All[0].ID);
 
             Assert.AreEqual("Test", externalTraits.First().Value);
-            Assert.AreEqual(Traits._SPAWN, externalTraits.First().Key);
-            Assert.AreEqual(Traits._SPAWN, externalCards.CardDictionary["Test001"].Traits[0]);
+            Assert.AreEqual(Traits._SPAWN.ToString(), externalTraits.First().Key);
+            Assert.AreEqual(Traits._SPAWN.ToString(), externalCards.CardDictionary["Test001"].Traits[0]);
         }
 
 
@@ -123,6 +123,15 @@ namespace DragonFrontDb.Tests
 			Assert.Contains(Faction.SILENCE, tripleFactionChamp.ValidFactions);
 			Assert.Contains(Faction.ECLIPSE, tripleFactionChamp.ValidFactions);
 			Assert.Contains(Faction.DELIRIUM, tripleFactionChamp.ValidFactions);
+		}
+
+        [Test]
+        public void TestTokens()
+        {
+            var allCards = new Cards().All;
+			var tokens = allCards.Where(c=>c.Rarity == Rarity.TOKEN);
+            Assert.IsTrue(tokens.Any());
+            Assert.AreEqual(tokens.Count(), allCards.Count(c => c.Traits.Contains(Traits.TOKEN.ToString())));
 		}
 
         internal static string GetResourceTextFile(string filename)

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\NuGet.Build.Packaging.0.1.248\build\NuGet.Build.Packaging.props" Condition="Exists('packages\NuGet.Build.Packaging.0.1.248\build\NuGet.Build.Packaging.props')" />
+  <Import Project="packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.props" Condition="Exists('packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
@@ -20,14 +20,13 @@
     <Authors>benreierson</Authors>
     <Owners>benreierson</Owners>
     <PackageProjectUrl>https://github.com/BenReierson/DragonFrontDb</PackageProjectUrl>
-    <PackageReleaseNotes>Added ValidFactions property to Card class which indicates which factions the card is valid for use with. This allows for cards that are compatible with multiple, but not all, factions. 
-</PackageReleaseNotes>
+    <PackageReleaseNotes>Added token rarity, trait, and existing token cards. Breaks compatibility with previous card data versions.</PackageReleaseNotes>
     <PackageTags>dragonfront cards database</PackageTags>
     <Title>DragonFrontDb</Title>
     <Description>DragonFrontDb is a .NET database for data from Dragon Front</Description>
-    <ReleaseVersion>2.1.0.0</ReleaseVersion>
+    <ReleaseVersion>2.1.0.4</ReleaseVersion>
     <PackageIconUrl>https://raw.githubusercontent.com/BenReierson/DragonFrontCompanion/master/DragonFrontCompanion.iOS/Resources/Icon.png</PackageIconUrl>
-    <PackageVersion>2.1.0.0-preview</PackageVersion>
+    <PackageVersion>2.1.0.4</PackageVersion>
     <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -75,5 +74,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <Import Project="packages\NuGet.Build.Packaging.0.1.248\build\NuGet.Build.Packaging.targets" Condition="Exists('packages\NuGet.Build.Packaging.0.1.248\build\NuGet.Build.Packaging.targets')" />
+  <Import Project="packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets" Condition="Exists('packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets')" />
 </Project>
