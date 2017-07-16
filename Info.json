@@ -20,8 +20,8 @@
     "Build": 0
   },
   "CardDataName": "Token cards",
-  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/Development/AllCards.json",
-  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/Development/CardTraits.json",
+  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
+  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
     "2.2.0": "Brave Soul token added",
     "2.1.0": "Token cards added",
