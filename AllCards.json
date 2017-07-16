@@ -7430,5 +7430,21 @@
    "IsGiant": false,
    "Race": "Warden",
    "Traits": ["TOKEN"]
+ },
+ {
+   "ID": "ToU013",
+   "Name": "Brave Soul",
+   "Type": "Unit",
+   "Cost": 3,
+   "Rarity": "Token",
+   "Collectible": false,
+   "Forgeable": false,
+   "Faction": "Unaligned",
+   "Power": 3,
+   "Health": 2,
+   "ManaFragments": 0,
+   "Text": "Whenever your Stronghold takes damage, this unit takes it instead as long as it is in your spawn row.",
+   "IsGiant": false,
+   "Traits": ["TOKEN"]
  }
 ]
