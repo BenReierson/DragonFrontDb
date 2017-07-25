@@ -12,17 +12,18 @@
   "CardDataVersion": {
     "Major": 2,
     "Minor": 2,
-    "Build": 0
+    "Build": 1
   },
   "CardDataCompatibleVersion": {
     "Major": 2,
     "Minor": 1,
     "Build": 0
   },
-  "CardDataName": "Token cards",
+  "CardDataName": "July 25 Balance",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
   "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
+    "2.2.1": "Balance changes to Blight Tower, AA21 Dropship, and Flashbang",
     "2.2.0": "Brave Soul token added",
     "2.1.0": "Token cards added",
     "2.0.1": "August Sultan updated",
