@@ -114,7 +114,7 @@
    "ID": "EcF003",
    "Name": "Blight Tower",
    "Type": "Fort",
-   "Cost": 1,
+   "Cost": 0,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -378,7 +378,7 @@
    "Power": 2,
    "Health": 2,
    "ManaFragments": 1,
-   "Text": "Gain SIPHON 2 while in Enemy Territory.",
+   "Text": "BLIGHT. While in Enemy Territory, gain SIPHON 2.",
    "IsGiant": false
  },
  {
@@ -409,7 +409,7 @@
    "Power": 5,
    "Health": 5,
    "ManaFragments": 2,
-   "Text": "Loses -1/-1 each time an ally unit is destroyed.",
+   "Text": "Randomly lose -1 to Health or Power each time an ally unit is destroyed.",
    "IsGiant": false
  },
  {
@@ -804,7 +804,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "Grant all ally units in a row +4 Health until their next turn.",
+   "Text": "Grant all ally units +4 Health until their next turn.",
    "IsGiant": false
  },
  {
@@ -1351,7 +1351,7 @@
    "ID": "StS015",
    "Name": "Blaze of Glory",
    "Type": "Spell",
-   "Cost": 5,
+   "Cost": 4,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -2286,7 +2286,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "Enemy units cannot attack if they moved in this lane.",
+    "Text": "If this fort is occupied by an ally unit, enemy units cannot attack if they moved in this row.",
    "IsGiant": false
  },
  {
@@ -2563,7 +2563,7 @@
    "ID": "StS009",
    "Name": "First Aid",
    "Type": "Spell",
-   "Cost": 1,
+   "Cost": 0,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -2743,7 +2743,7 @@
    "ID": "ScS005",
    "Name": "Heavy Ordnance",
    "Type": "Spell",
-   "Cost": 2,
+   "Cost": 3,
    "Rarity": "Rare",
    "Collectible": true,
    "Forgeable": true,
@@ -2826,7 +2826,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "CHOOSE ONE: HEAL an ally unit for 2 -or- HEAL your Stronghold for 2.",
+   "Text": "CHOOSE ONE: HEAL an ally unit for 3 -or- HEAL your Stronghold for 3.",
    "IsGiant": false
  },
  {
@@ -2953,7 +2953,7 @@
    "ID": "ScS017",
    "Name": "Death Syphon",
    "Type": "Spell",
-   "Cost": 3,
+   "Cost": 4,
    "Rarity": "Rare",
    "Collectible": true,
    "Forgeable": true,
@@ -3456,7 +3456,7 @@
    "Collectible": true,
    "Forgeable": true,
    "Faction": "Unaligned",
-   "Power": 2,
+   "Power": 3,
    "Health": 3,
    "ManaFragments": 2,
    "Text": "UNION.",
@@ -3503,7 +3503,7 @@
    "Forgeable": true,
    "Faction": "Unaligned",
    "Power": 3,
-   "Health": 2,
+   "Health": 3,
    "ManaFragments": 2,
    "Text": "This unit has +3 Power if either Champion has been destroyed.",
    "IsGiant": false
@@ -4477,7 +4477,7 @@
    "Power": 3,
    "Health": 3,
    "ManaFragments": 2,
-   "Text": "STEALTH. When this unit is revealed gain 2 Mana.",
+   "Text": "STEALTH. When this unit is revealed gain 1 Mana.",
    "IsGiant": false,
    "Race": "SHADOW"
  },
@@ -4541,7 +4541,7 @@
    "Power": 4,
    "Health": 4,
    "ManaFragments": 3,
-   "Text": "SPAWN: Enemy units in this lane become POISONED.",
+   "Text": "SPAWN: Enemy non-Champion units in this lane become POISONED.",
    "IsGiant": false,
 
  },
@@ -4813,7 +4813,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "START OF TURN: HUSH occupying enemy units.",
+   "Text": "TRAP: HUSH. When this fort applies HUSHED to a unit there is a 50% chance it will be destroyed.",
    "IsGiant": false,
 
  },
@@ -4917,7 +4917,7 @@
    "ID": "SiS005",
    "Name": "Tracked Movements",
    "Type": "Spell",
-   "Cost": 1,
+   "Cost": 0,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -6278,7 +6278,7 @@
    "ID": "DeF009",
    "Name": "Glossy Reflections",
    "Type": "Fort",
-   "Cost": 2,
+   "Cost": 3,
    "Rarity": "Common",
    "Collectible": true,
    "Forgeable": true,
@@ -6286,7 +6286,7 @@
    "Power": null,
    "Health": null,
    "ManaFragments": 0,
-   "Text": "Whenever your opponent plays a fort, gain a duplicate in your hand.",
+   "Text": "START OF TURN: If occupied by an ally, add a random fort to your hand.",
    "IsGiant": false,
 
  },
