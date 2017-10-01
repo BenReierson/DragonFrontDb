@@ -20,7 +20,8 @@ namespace DragonFrontDb.Enums
         SILENCE = 6,
         ESSENCE = 7,
         DELIRIUM = 8,
-        NEXT = 9
+        EIGTH = 9,
+        NINTH = 10
     }
 
     public enum CardSet
