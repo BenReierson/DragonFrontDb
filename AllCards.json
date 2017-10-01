@@ -7463,6 +7463,6 @@
     "Text": "END OF TURN: Randomly change the Health and Power of this unit. Replace a random card in the opponent's hand with a [0/2] Chum Creeper.",
     "IsGiant": false,
     "Race": "None",
-    "CardSet": "NEXT"
+    "CardSet": 4
  }
 ]

@@ -20,6 +20,7 @@ namespace DragonFrontDb.Enums
         SILENCE = 6,
         ESSENCE = 7,
         DELIRIUM = 8,
+        NEXT = 9
     }
 
     public enum CardSet
@@ -28,7 +29,8 @@ namespace DragonFrontDb.Enums
         BLANK = 1,
         CORE = 2,
         CONQUEST = 3,
-        NEXT = 4
+        DUAL = 4,
+        NEXT = 5
     }
 
     public enum CardType
