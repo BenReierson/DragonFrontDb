@@ -243,3 +243,4 @@ ModelManifest.xml
 /NugetPublish.cmd
 /NugetPackage.cmd
 NugetPublish.sh
+.dragonfrontdb.droidres.db
