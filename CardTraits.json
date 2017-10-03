@@ -38,5 +38,6 @@
   "PULL": "Move the targeted unit 1 space towards the owner of the ability's Stronghold. This does not count as a move action.",
   "DRAIN": "Your opponent loses X Mana and you gain the amount of Mana lost.",
   "COMMAND": "Champions generate this effect while they are on the stronghold podium.",
-  "TOKEN": "Token is a term for uncollectible units that are created or summoned by other cards." 
+  "TOKEN": "Token is a term for uncollectible units that are created or summoned by other cards.",
+  "DUAL": "This card is aligned with two specific factions." 
 }

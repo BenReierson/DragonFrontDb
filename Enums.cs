@@ -94,7 +94,8 @@ namespace DragonFrontDb.Enums
         PULL,
         DRAIN,
         COMMAND,
-        TOKEN
+        TOKEN,
+        DUAL
     }
     
     public enum Race
