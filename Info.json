@@ -1,4 +1,4 @@
-﻿{
+{
   "DragonFontDbVersion": {
     "Major": 2,
     "Minor": 1,
@@ -11,23 +11,24 @@
   },
   "CardDataVersion": {
     "Major": 2,
-    "Minor": 2,
-    "Build": 1
+    "Minor": 3,
+    "Build": 0
   },
   "CardDataCompatibleVersion": {
     "Major": 2,
     "Minor": 1,
     "Build": 0
   },
-  "CardDataName": "July 25 Balance",
+  "CardDataName": "First Dual Champion and balance",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
   "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
+    "2.3.0": "First dual faction champion, Etwas The Jester, added. Balance changes to Holding the Line, Merc Scappers, Machinegun Nest, Heavy Ordinance, First Aid, Shade Manipulators, Plague Marauder, Blight Tower, Death Syphon, Renewal, Blaze of Glory, Serpent Whisper, Netherworld Prowlers, Tracked Movements, Dampening Field, Master Alchemists, Glossy Reflections",
     "2.2.1": "Balance changes to Blight Tower, AA21 Dropship, and Flashbang",
     "2.2.0": "Brave Soul token added",
     "2.1.0": "Token cards added",
     "2.0.1": "August Sultan updated",
     "2.0.0": "Conquest Champions Added"
   },
-  "CardDataStatus": "RELEASE"
+  "CardDataStatus": "PREVIEW"
 }
