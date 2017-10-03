@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace DragonFrontDb.Enums
 {
@@ -20,7 +20,7 @@ namespace DragonFrontDb.Enums
         SILENCE = 6,
         ESSENCE = 7,
         DELIRIUM = 8,
-        EIGTH = 9,
+        EIGHTH = 9,
         NINTH = 10
     }
 

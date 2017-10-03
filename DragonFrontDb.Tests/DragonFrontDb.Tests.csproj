@@ -8,7 +8,7 @@
     <RootNamespace>DragonFrontDb.Tests</RootNamespace>
     <AssemblyName>DragrontFrontDB.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
-    <ReleaseVersion>2.2.0.1</ReleaseVersion>
+    <ReleaseVersion>2.2.0.2</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
