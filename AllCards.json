@@ -7465,5 +7465,24 @@
     "Race": "None",
     "CardSet": 4,
     "Traits": [ "DUAL" ]
+ },
+ {
+    "ID": "DuC007",
+    "Name": "Thu'Balris",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Eclipse", "Essence" ],
+    "Power": 5,
+    "Health": 7,
+    "ManaFragments": 0,
+    "Text": "FLIGHT. SPAWN: Randomly grant all other ally units one of the following: BLIGHT, SIPHON 1, SHIFT, or FLIGHT.",
+    "IsGiant": false,
+    "Race": "DRAGON",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
  }
 ]
