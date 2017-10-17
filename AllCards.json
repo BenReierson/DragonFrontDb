@@ -7484,5 +7484,23 @@
     "Race": "DRAGON",
     "CardSet": 4,
     "Traits": [ "DUAL" ]
+ },
+ {
+    "ID": "DuC020",
+    "Name": "Arachnis King",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Thorns", "Silence" ],
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "REGEN 2. Units damaged by this unit are poisoned. SURVIVOR: Grant this unit STEALTH and move it to a random Frontline space.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
  }
 ]
