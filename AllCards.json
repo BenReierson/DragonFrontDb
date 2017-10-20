@@ -7502,5 +7502,41 @@
     "IsGiant": false,
     "CardSet": 4,
     "Traits": [ "DUAL" ]
+ },
+ {
+    "ID": "DuC005",
+    "Name": "Entropy",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Strife", "Delirium" ],
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "FLIGHT. SPAWN: All enemy units take an amount of damage equal to their Mana Fragments.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+ },
+ {
+    "ID": "DuC012",
+    "Name": "Valeria of Crowns",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Scales", "Essence" ],
+    "Power": 3,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "SHIFT. ARMOR. EXECUTE: REFRESH this unit.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
  }
 ]
