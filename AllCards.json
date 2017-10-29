@@ -7538,5 +7538,23 @@
     "IsGiant": false,
     "CardSet": 4,
     "Traits": [ "DUAL" ]
+ },
+ {
+    "ID": "DuC009",
+    "Name": "Hemlock",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Eclipse", "Silence" ],
+    "Power": 4,
+    "Health": 7,
+    "ManaFragments": 0,
+    "Text": "Units damaged by this unit are POISONED and BLIGHTED. EXECUTE: A random enemy becomes POISONED and BLIGHTED.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
  }
 ]
