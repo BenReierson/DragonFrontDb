@@ -39,5 +39,8 @@
   "DRAIN": "Your opponent loses X Mana and you gain the amount of Mana lost.",
   "COMMAND": "Champions generate this effect while they are on the stronghold podium.",
   "TOKEN": "Token is a term for uncollectible units that are created or summoned by other cards.",
-  "DUAL": "This card is aligned with two specific factions."
+  "DUAL": "This card is aligned with two specific factions.",
+  "BLESS": "When a unit with Bless enters a tile without a fort, that tile is blessed. Non-blessed forts constructed on a Blessed tile, reverts the tile to the non-blessed version.",
+  "STEELWARD": "Units with this trait cannot be targeted by spells.",
+  "EVOLVE": "Upon meeting specific conditions, units can change into different, often more powerful, units. Evolved units are almost always OMEGA."
 }

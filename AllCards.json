@@ -7539,7 +7539,7 @@
     "CardSet": 4,
     "Traits": [ "DUAL" ]
  },
- {
+  {
     "ID": "DuC009",
     "Name": "Hemlock",
     "Type": "Champion",
@@ -7556,5 +7556,24 @@
     "IsGiant": false,
     "CardSet": 4,
     "Traits": [ "DUAL" ]
- }
+  },
+  {
+    "ID": "DuC006",
+    "Name": "M'Rhythas Shae",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Thorns", "Delirium" ],
+    "Power": 3,
+    "Health": 5,
+    "ManaFragments": 0,
+    "Text": "SPAWN: Destroy all non-Champion enemies in this lane and Respawn them as enemy 0/1 Jellies. SURVIVOR: Gain +2 Power or +2 Health at random.",
+    "IsGiant": false,
+    "Race": "DRUID",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  }
 ]

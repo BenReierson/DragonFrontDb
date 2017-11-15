@@ -96,7 +96,10 @@ namespace DragonFrontDb.Enums
         DRAIN,
         COMMAND,
         TOKEN,
-        DUAL
+        DUAL,
+        STEELWARD,
+        BLESS,
+        EVOLVE
     }
     
     public enum Race
