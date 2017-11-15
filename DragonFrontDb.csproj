@@ -20,13 +20,13 @@
     <Authors>benreierson</Authors>
     <Owners>benreierson</Owners>
     <PackageProjectUrl>https://github.com/BenReierson/DragonFrontDb</PackageProjectUrl>
-    <PackageReleaseNotes>Card data updated to 2.3.0. First dual champion and balance.</PackageReleaseNotes>
+    <PackageReleaseNotes>v2.2.0 - Aegis faction and card set support added.</PackageReleaseNotes>
     <PackageTags>dragonfront cards database</PackageTags>
     <Title>DragonFrontDb</Title>
     <Description>DragonFrontDb is a .NET database for data from Dragon Front</Description>
-    <ReleaseVersion>2.2.0.2</ReleaseVersion>
+    <ReleaseVersion>2.2.0.4</ReleaseVersion>
     <PackageIconUrl>https://raw.githubusercontent.com/BenReierson/DragonFrontCompanion/master/DragonFrontCompanion.iOS/Resources/Icon.png</PackageIconUrl>
-    <PackageVersion>2.2.0.2</PackageVersion>
+    <PackageVersion>2.2.0.4</PackageVersion>
     <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
