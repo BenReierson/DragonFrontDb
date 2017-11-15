@@ -27,7 +27,7 @@ v2.2.0 - Aegis faction and card set support added.</PackageReleaseNotes>
     <Description>DragonFrontDb is a .NET database for data from Dragon Front</Description>
     <ReleaseVersion>2.2.1.0</ReleaseVersion>
     <PackageIconUrl>https://raw.githubusercontent.com/BenReierson/DragonFrontCompanion/master/DragonFrontCompanion.iOS/Resources/Icon.png</PackageIconUrl>
-    <PackageVersion>2.2.1.1</PackageVersion>
+    <PackageVersion>2.2.1.2</PackageVersion>
     <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
