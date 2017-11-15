@@ -1,7 +1,7 @@
-﻿{
+{
   "DragonFontDbVersion": {
     "Major": 2,
-    "Minor": 2,
+    "Minor": 1,
     "Build": 0
   },
   "DragonFrontVersion": {
@@ -12,17 +12,20 @@
   "CardDataVersion": {
     "Major": 2,
     "Minor": 3,
-    "Build": 1
+    "Build": 4
   },
   "CardDataCompatibleVersion": {
     "Major": 2,
     "Minor": 1,
     "Build": 0
   },
-  "CardDataName": "Thu'Balris added",
+  "CardDataName": "Hemlock added",
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
   "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
+    "2.3.4": "Hemlock added.",
+    "2.3.3": "Entropy and Valeria Of Crowns added.",
+    "2.3.2": "Third dual faction champion, Arachnis King, added.",
     "2.3.1": "Second dual faction champion, Thu'Balris, added.",
     "2.3.0": "First dual faction champion, Etwas The Jester, added. Balance changes to Holding the Line, Merc Scappers, Machinegun Nest, Heavy Ordinance, First Aid, Shade Manipulators, Plague Marauder, Blight Tower, Death Syphon, Renewal, Blaze of Glory, Serpent Whisper, Netherworld Prowlers, Tracked Movements, Dampening Field, Master Alchemists, Glossy Reflections",
     "2.2.1": "Balance changes to Blight Tower, AA21 Dropship, and Flashbang",
@@ -31,5 +34,5 @@
     "2.0.1": "August Sultan updated",
     "2.0.0": "Conquest Champions Added"
   },
-  "CardDataStatus": "RELEASE"
+  "CardDataStatus": "PREVIEW"
 }
