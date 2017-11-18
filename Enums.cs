@@ -114,7 +114,8 @@ namespace DragonFrontDb.Enums
         SLAG = 7,
         SHADOW = 8,
         GOLEM = 9,
-        STARLING =10
+        STARLING =10,
+        OMEGA = 11
     }
 
     public enum Rarity
