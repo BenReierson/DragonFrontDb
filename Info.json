@@ -12,17 +12,18 @@
   "CardDataVersion": {
     "Major": 2,
     "Minor": 4,
-    "Build": 1
+    "Build": 2
   },
   "CardDataCompatibleVersion": {
     "Major": 2,
     "Minor": 4,
     "Build": 0
   },
-  "CardDataName": "Added Lady, Baron And Cleo, Blackstar dual champs.",
-  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
-  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
+  "CardDataName": "Added Mia's Seeding Contraption, Komrade Kroake, The Eternal Warden, Fires of the Earth, and Infinite Recursion dual champs.",
+  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/Development/AllCards.json",
+  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/Development/CardTraits.json",
   "CardDataChangeLog": {
+    "2.4.2": "Added Mia's Seeding Contraption, Komrade Kroake, The Eternal Warden, Fires of the Earth, and Infinite Recursion dual champs.",
     "2.4.1": "Added Lady, Baron And Cleo, Blackstar dual champs.",
     "2.4.0": "Aegis data added.",
     "2.3.5": "M'Rhythas Shae added. Aegis faction support (but no data yet).",
@@ -37,5 +38,5 @@
     "2.0.1": "August Sultan updated",
     "2.0.0": "Conquest Champions Added"
   },
-  "CardDataStatus": "RELEASE"
+  "CardDataStatus": "PREVIEW"
 }
