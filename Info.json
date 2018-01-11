@@ -20,8 +20,8 @@
     "Build": 0
   },
   "CardDataName": "Added Magmarot Steelhorn, Ja'Ru, Venerzad Kain, Malice, Wings of Ill Omen, Legend dual champions.",
-  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/Development/AllCards.json",
-  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/Development/CardTraits.json",
+  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
+  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
     "2.4.3": "Added Magmarot Steelhorn, Ja'Ru, Venerzad Kain, Malice, Wings of Ill Omen, Legend dual champions.",
     "2.4.2": "Added Mia's Seeding Contraption, Komrade Kroake, The Eternal Warden, Fires of the Earth, and Infinite Recursion dual champs.",
