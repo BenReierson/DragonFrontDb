@@ -1,79 +1,41 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.props" Condition="Exists('packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.props')" />
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-  <PropertyGroup>
-    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3CA24C15-163C-4C43-B5B9-10F0F6B080CC}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DragonFrontDb</RootNamespace>
-    <AssemblyName>DragonFrontDb</AssemblyName>
-    <DefaultLanguage>en-US</DefaultLanguage>
-    <FileAlignment>512</FileAlignment>
-    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <PackageId>DragonFrontDb</PackageId>
-    <Authors>benreierson</Authors>
-    <Owners>benreierson</Owners>
-    <PackageProjectUrl>https://github.com/BenReierson/DragonFrontDb</PackageProjectUrl>
-    <PackageReleaseNotes>v2.2.1 - Aegis data added.
-v2.2.0 - Aegis faction and card set support added.</PackageReleaseNotes>
-    <PackageTags>dragonfront cards database</PackageTags>
-    <Title>DragonFrontDb</Title>
-    <Description>DragonFrontDb is a .NET database for data from Dragon Front</Description>
-    <ReleaseVersion>2.2.1.0</ReleaseVersion>
-    <PackageIconUrl>https://raw.githubusercontent.com/BenReierson/DragonFrontCompanion/master/DragonFrontCompanion.iOS/Resources/Icon.png</PackageIconUrl>
-    <PackageVersion>2.2.1.2</PackageVersion>
-    <PackOnBuild>true</PackOnBuild>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Cards.cs" />
-    <Compile Include="Enums.cs" />
-    <Compile Include="Helper.cs" />
-    <Compile Include="Info.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="AllCards.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="CardTraits.json" />
-    <EmbeddedResource Include="Info.json" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>packages\Newtonsoft.Json.10.0.3\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
-  <Import Project="packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets" Condition="Exists('packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Authors>BenReierson</Authors>
+        <Description>DragonFrontDb is a .NET database for data from Dragon Front</Description>
+        <PackageProjectUrl>https://github.com/BenReierson/DragonFrontDb</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/BenReierson/DragonFrontDb</RepositoryUrl>
+        <PackageTags>dragonfront;cards;database</PackageTags>
+        <AssemblyVersion>3.0.1</AssemblyVersion>
+        <FileVersion>3.0.1</FileVersion>
+        <Title>DragonFrontDb</Title>
+        <Version>3.0.1</Version>
+        <PackageReleaseNotes>updated to support net8.0 and 'Dragon Front Rising' card data</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="DragonFrontDb.Tests\**" />
+      <EmbeddedResource Remove="DragonFrontDb.Tests\**" />
+      <None Remove="DragonFrontDb.Tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove=".gitattributes" />
+      <None Remove=".gitignore" />
+      <None Remove="AllCards.json" />
+      <EmbeddedResource Include="AllCards.json" />
+      <None Remove="CardTraits.json" />
+      <EmbeddedResource Include="CardTraits.json" />
+      <None Remove="Info.json" />
+      <EmbeddedResource Include="Info.json" />
+    </ItemGroup>
+
 </Project>
