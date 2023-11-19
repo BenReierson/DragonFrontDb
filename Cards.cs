@@ -9,30 +9,36 @@ namespace DragonFrontDb
 {
     public class Cards
     {
-        public readonly ReadOnlyDictionary<string, Card> CardDictionary;
-        public readonly ReadOnlyDictionary<string, string> TraitsDictionary;
+        public ReadOnlyDictionary<string, Card> CardDictionary { get; private set; }
+        public ReadOnlyDictionary<string, string> TraitsDictionary { get; private set; }
 
-        public readonly ReadOnlyCollection<Card> All;
+        public ReadOnlyCollection<Card> All { get; private set; }
+
+        private Cards() { }
         
         /// <summary>
         /// Create an instance of the cards database. By default, the built-in data is used.
         /// </summary>
-        public Cards(string externalCardsArrayJson = null, string externalTraitsArrayJson = null)
+        public static async Task<Cards> Build(string? externalCardsArrayJson = null, string? externalTraitsArrayJson = null)
         {
-            var cardsJson = externalCardsArrayJson ?? Helper.GetResourceTextFile("AllCards.json");
-            var traitsJson = externalTraitsArrayJson ?? Helper.GetResourceTextFile("CardTraits.json");
+            var newCards = new Cards();
+            
+            var cardsJson = externalCardsArrayJson ?? await Helper.GetResourceTextFileAsync("AllCards.json").ConfigureAwait(false);
+            var traitsJson = externalTraitsArrayJson ?? await Helper.GetResourceTextFileAsync("CardTraits.json").ConfigureAwait(false);
 
             var allCards = JsonConvert.DeserializeObject<List<Card>>(cardsJson);
-            All = new ReadOnlyCollection<Card>(allCards);
+            newCards.All = new ReadOnlyCollection<Card>(allCards);
 
             var allCardsDictionary = allCards.ToDictionary(k => k.ID, c => c);
-            CardDictionary = new ReadOnlyDictionary<string, Card>(allCardsDictionary);
+            newCards.CardDictionary = new ReadOnlyDictionary<string, Card>(allCardsDictionary);
 
             var mutableTraitDictionary = JsonConvert.DeserializeObject<Dictionary<string, string>>(traitsJson);
-            TraitsDictionary = new ReadOnlyDictionary<string, string>(mutableTraitDictionary);
+            newCards.TraitsDictionary = new ReadOnlyDictionary<string, string>(mutableTraitDictionary);
 
-			ParseTraits(allCardsDictionary, TraitsDictionary);
-		}
+            ParseTraits(allCardsDictionary, newCards.TraitsDictionary);
+
+            return newCards;
+        }
 
         private static void ParseTraits(Dictionary<string, Card> cardsDictionary, ReadOnlyDictionary<string, string> traits)
         {

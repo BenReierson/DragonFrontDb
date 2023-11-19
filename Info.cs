@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DragonFrontDb
 {
-    public class Info
+    public record Info
     {
         public Version DragonFontDbVersion { get; set; }
 
@@ -30,7 +30,26 @@ namespace DragonFrontDb
 
         private static Info _info;
         public static Info Current => _info ?? 
-            (_info = JsonConvert.DeserializeObject<Info>(Helper.GetResourceTextFile("Info.json")));
+            (_info = JsonConvert.DeserializeObject<Info>(Helper.GetResourceTextFile("Info.json"), new LegacyVersionConverter()));
         
+    }
+
+    public class LegacyVersionConverter : JsonConverter
+    {
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            serializer.Serialize(writer, value);
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            var dict = serializer.Deserialize<Dictionary<string, int>>(reader);
+            return new Version(dict["Major"], dict["Minor"], dict["Build"], 0); //revision not used
+        }
+
+        public override bool CanConvert(Type objectType)
+        {
+            return objectType == typeof(Version);
+        }
     }
 }

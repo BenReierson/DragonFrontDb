@@ -11,9 +11,9 @@ using System.Reflection;
 namespace DragonFrontDb
 {
     [JsonObject]
-    public class Card
+    public class Card : IEquatable<Card>
     {
-
+        
         [JsonProperty]
         public string Name { get; internal set; }
 
@@ -55,6 +55,9 @@ namespace DragonFrontDb
 
         [JsonProperty]
         public string ID { get; internal set; }
+        
+        [JsonProperty]
+        public int? Guid { get; internal set; }
 
 		[JsonProperty]
 		public List<string> Traits { get; internal set; }
@@ -135,18 +138,17 @@ namespace DragonFrontDb
         {
             return this.Name + " | " + this.Type.ToString() + " | " + this.Faction.ToString();
         }
-
-        public override bool Equals(object obj)
-        {
-            var card = obj as Card;
-            var equal = card != null && this.ID == card.ID;
-
-            return equal;
-        }
-
+        
+        public bool Equals(Card? other)
+            => ID == other?.ID;
+        public override bool Equals(object? obj)
+            => Equals(obj as Card);
         public override int GetHashCode()
-        {
-            return this.ID.GetHashCode();
-        }
+            => ID.GetHashCode();
+        public static bool operator ==(Card? left, Card? right)
+            => Equals(left, right);
+        public static bool operator !=(Card? left, Card? right)
+            => !Equals(left, right);
+
     }
 }

@@ -20,8 +20,8 @@
     "Build": 0
   },
   "CardDataName": "Dragon Front Rising",
-  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/rising/AllCards.json",
-  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/rising/CardTraits.json",
+  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
+  "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
     "3.0.1": "Rising balance changes.",
     "3.0.0": "Updated for Rising launch.",
