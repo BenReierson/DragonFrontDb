@@ -211,7 +211,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy an ally unit and grant SIPHON 1 to all ally units in its row.",
-   "IsGiant": false,
+   "IsGiant": false
  },
  {
    "ID": "EcS008",
@@ -2821,7 +2821,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant a unit +2/+1 until the end of the turn.",
-   "IsGiant": false,
+   "IsGiant": false
  },
  {
    "ID": "ScS011",
@@ -4262,7 +4262,7 @@
    "Health": 5,
    "ManaFragments": 0,
    "Text": "STEALTH. All ally units gain EXECUTE: STEALTH.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4279,7 +4279,7 @@
    "Health": 8,
    "ManaFragments": 0,
    "Text": "SWIFT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4313,7 +4313,7 @@
     "Health": 7,
     "ManaFragments": 0,
     "Text": "Units damaged by this unit are POISONED. DEATH: All enemy units become POISONED.",
-    "IsGiant": false,
+    "IsGiant": false
  },
  {
    "ID": "SiC005",
@@ -4346,7 +4346,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "SPAWN and DEATH: Add a [1/1] Shadow to your hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4363,7 +4363,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "SPAWN: Gain 2 Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4380,7 +4380,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "STEALTH. TRAP: Deal 3 damage to unit and destroy this fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4397,7 +4397,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "STEALTH. TRAP: Deal 1 damage to unit, and 2 random damage to enemy units. Then destroy this fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4414,7 +4414,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "When an ally unit spawns in this lane, gain 2 Mana. -or- START OF TURN: Gain 1 Mana for each ally under the effects of STEALTH.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4431,7 +4431,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Non-GIANT ally units with STEALTH and ally Shadow units may be played on this space.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4448,7 +4448,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "STEALTH. TRAP: Deal 5 damage to unit and destroy this fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4465,7 +4465,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Enemy units are dealt an additional 1 damage from the effects of POISONED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4482,7 +4482,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Occupying non-GIANT ally units have SWIFT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4499,7 +4499,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Choose a unit. Every time it receives damage, DRAW 1.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4516,7 +4516,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant SWIFT to an ally unit until your next turn.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4533,7 +4533,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "CHOOSE ONE: Deal 2 damage to a unit -or- Deal 2 damage to the enemy Stronghold.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4550,7 +4550,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "HUSH a non-Champion unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4567,7 +4567,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Choose 2 non-GIANT ally units and switch their positions.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4584,7 +4584,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant STEALTH to an Ally unit, hide that unit, then move it to a random space in the Frontlines.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4601,7 +4601,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 4 damage to a unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4618,7 +4618,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 5 damage to a POISONED unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4635,7 +4635,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "STUN all POISONED enemy units.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4669,7 +4669,7 @@
    "Health": 2,
    "ManaFragments": 1,
    "Text": "STEALTH. FLIGHT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4703,7 +4703,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "SWIFT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4720,7 +4720,7 @@
    "Health": 1,
    "ManaFragments": 2,
    "Text": "SPRINT. SWIFT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4754,7 +4754,7 @@
    "Health": 2,
    "ManaFragments": 2,
    "Text": "RANGE. Units damaged by this unit are POISONED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4788,7 +4788,7 @@
    "Health": 4,
    "ManaFragments": 2,
    "Text": "START OF TURN: Destroy any Fort in front of this unit. When it destroys a Fort, gain +2 Power.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4822,7 +4822,7 @@
    "Health": 2,
    "ManaFragments": 3,
    "Text": "SWIFT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4839,7 +4839,7 @@
    "Health": 4,
    "ManaFragments": 3,
    "Text": "SPAWN: Enemy non-Champion units in this lane become POISONED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4856,7 +4856,7 @@
    "Health": 5,
    "ManaFragments": 3,
    "Text": "STEALTH.",
-   "IsGiant": true,
+   "IsGiant": true
 
  },
  {
@@ -4890,7 +4890,7 @@
    "Health": 2,
    "ManaFragments": 1,
    "Text": "Whenever your Stronghold takes damage, this unit takes it instead as long as it is in your spawn row.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4907,7 +4907,7 @@
    "Health": 1,
    "ManaFragments": 3,
    "Text": "N/A",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4924,7 +4924,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "SPRINT. Units damaged by this unit are POISONED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4941,7 +4941,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "RANGE.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4958,7 +4958,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "DEATH: DRAW 1.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4975,7 +4975,7 @@
    "Health": 2,
    "ManaFragments": 2,
    "Text": "STUN. Units damaged by this unit are POISONED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -4992,7 +4992,7 @@
    "Health": 3,
    "ManaFragments": 1,
    "Text": "HUSH enemies damaged by this unit in combat.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5009,7 +5009,7 @@
    "Health": 3,
    "ManaFragments": 2,
    "Text": "EXECUTE: Randomly move this unit to a Frontline space in Enemy Territory.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5026,7 +5026,7 @@
    "Health": 3,
    "ManaFragments": 2,
    "Text": "N/A",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5043,7 +5043,7 @@
    "Health": 5,
    "ManaFragments": 2,
    "Text": "Destroy this unit if it enters Enemy Territory.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5060,7 +5060,7 @@
    "Health": 3,
    "ManaFragments": 2,
    "Text": "EXECUTE: Gain 2 Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5077,7 +5077,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "TRAP: Gain a copy of a random card from the opponent’s deck.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5094,7 +5094,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "TRAP: Enemy units become POISONED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5111,7 +5111,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "While this Fort is in play, RANGE and CATAPULT traits are ignored.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5128,7 +5128,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "TRAP: HUSH. When this fort applies HUSHED to a unit there is a 50% chance it will be destroyed.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5145,7 +5145,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "START OF TURN: HEAL your Stronghold for 1.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5162,7 +5162,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy the next non-Champion enemy unit to spawn in this lane, and then destroy this fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5179,7 +5179,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "END OF TURN: If occupied by an Ally unit, deal the enemy Stronghold 1 damage.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5196,7 +5196,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Randomly gain 1-4 Champion Tokens.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5213,7 +5213,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant an Ally: \"When this unit damages an enemy, that enemy is POISONED.\"",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5230,7 +5230,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Change an enemy unit's base Power to 1 until the end of the turn.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5247,7 +5247,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Choose a unit. Each time it activates, gain 1 Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5264,7 +5264,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Target unit becomes POISONED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5281,7 +5281,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Return a random non-Champion Ally unit to your hand that died or was discarded this game. It costs 2 less.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5298,7 +5298,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Target ally unit moves through forts or units in the space directly in front of it, if the next space is unoccupied.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5315,7 +5315,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy a fort and DRAW 2.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5332,7 +5332,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy an enemy unit with Power of 2 or less and add a [1/1] Shadow to your hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5349,7 +5349,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 2 damage to all units in a row. For each unit destroyed, you and your opponent gain 1 Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5366,7 +5366,7 @@
    "Health": 10,
    "ManaFragments": 0,
    "Text": "SHIFT. SPAWN: PUSH all other units. ",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5400,7 +5400,7 @@
    "Health": 10,
    "ManaFragments": 0,
    "Text": "SPAWN and START OF TURN: Add a random spell to your hand. Random spell's cost is reduced to 0 mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5417,7 +5417,7 @@
    "Health": 6,
    "ManaFragments": 0,
    "Text": "FLIGHT. SPRINT. SPAWN: Fill your Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5451,7 +5451,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Add a 1/1 Golem to your hand when your Stronghold gets damaged.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5468,7 +5468,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "While on this space, grant ally non-Giant units FLIGHT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5485,7 +5485,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Golem units may spawn here. When a Golem unit is spawned here, collect 1 Mana. Giant.",
-   "IsGiant": true,
+   "IsGiant": true
 
  },
  {
@@ -5502,7 +5502,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Add two 1/1 Golems to your hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5519,7 +5519,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Damage the enemy Stronghold equal to the Mana Fragments of the last ally unit killed this turn. This spell's cost is equal to the unit's Mana Fragments.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5536,7 +5536,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Randomly grant an ally unit STUN, SIPHON 1, or POSION. This effect goes off twice on Golem units.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5553,7 +5553,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "HEAL unit for 2. If the unit is a Golem, grant it +2 Health instead.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5570,7 +5570,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Randomly grant an ally unit ARMOR, REGEN, or DEATHBLOW. This effect goes off twice on Golem units.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5587,7 +5587,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "DRAW 1. Add 1-3 Mana Daggers to your hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5604,7 +5604,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "All non-Golem units are STUNNED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5621,7 +5621,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant FLIGHT to an ally unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5638,7 +5638,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant SPRINT to all ally units this turn.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5655,7 +5655,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy a fort in enemy territory. Add 2 Mana Daggers to your hand. ",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5672,7 +5672,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant SHIFT to all ally units this turn.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5689,7 +5689,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy a fort. Gain Mana equal to its cost.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5706,7 +5706,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 2 damage to all enemy units in a Frontline row and PUSH them.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5723,7 +5723,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 3 damage to all units.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5740,7 +5740,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 4 damage to a unit. Excess damage is applied down the lane ending at the enemy Stronghold.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5757,7 +5757,7 @@
    "Health": 3,
    "ManaFragments": 1,
    "Text": "SHIFT",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5774,7 +5774,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "SPAWN: Give an other random ally unit +1 Power. If the target is a Golem, also give it +1 Health.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5808,7 +5808,7 @@
    "Health": 3,
    "ManaFragments": 1,
    "Text": "PUSH. Deal 2 damage after combat if opposing enemy was pushed.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5825,7 +5825,7 @@
    "Health": 2,
    "ManaFragments": 2,
    "Text": "RANGE. PUSH. Gain +2 Power if the target unit is 2 spaces away.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5910,7 +5910,7 @@
    "Health": 3,
    "ManaFragments": 3,
    "Text": "SPAWN: Spawn a 1/1 Golem in all open frontline spaces in this lane.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5927,7 +5927,7 @@
    "Health": 6,
    "ManaFragments": 3,
    "Text": "SHIFT. PUSH.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5978,7 +5978,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "TRAP: Owner gains 1 Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -5995,7 +5995,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "When an enemy unit spawns in this lane: DRAW 1.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6012,7 +6012,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Each time an enemy unit generates mana in this lane, gain 1 Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6029,7 +6029,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "TRAP: PUSH unit, deal 2 damage, and destroy this fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6046,7 +6046,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Your spells cost [1] less.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6063,7 +6063,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "When a fort is destroyed, deal 1 damage to the enemy Stronghold.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6080,7 +6080,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "START OF TURN: While occupied by an ally unit, reveal all enemy units with STEALTH. Occupying non-Giant ally units have SHIFT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6097,7 +6097,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "TRAP: Destroy this Fort. START OF TURN: If there are no enemy units in this lane, deal 5 damage to the enemy Stronghold and destroy this Fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6114,7 +6114,7 @@
    "Health": 5,
    "ManaFragments": 0,
    "Text": "WALL. For each point of damage this fort takes, gain 1 Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6131,7 +6131,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Return target fort to its owner's hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6148,7 +6148,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Send a non-Giant enemy unit to a random empty space in your opponent's spawn row.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6165,7 +6165,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "PUSH a unit. Deal 1 damage if the unit ends in their spawn row.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6182,7 +6182,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "SHIFT an ally unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6199,7 +6199,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant enemy unit END OF TURN: Deal 2 random damage to ally units if in enemy territory.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6216,7 +6216,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy an enemy non-Champion unit. Deal damage randomly to all ally units equal to the target's mana cost.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6233,7 +6233,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Choose an enemy non-Champion unit and HEAL your Stronghold equal to the unit's cost.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6250,7 +6250,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy all forts in a row and HEAL your Stronghold by 2 for each one destroyed.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6267,7 +6267,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 4 damage randomly split between all enemy units, enemy WALL forts, and the enemy Stronghold.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6284,7 +6284,7 @@
    "Health": 3,
    "ManaFragments": 1,
    "Text": "DEATH: Deal 1 random damage to an ally unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6301,7 +6301,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "END OF TURN: Gain +1/+1 if this unit is on a fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6318,7 +6318,7 @@
    "Health": 3,
    "ManaFragments": 1,
    "Text": "Whenever opposing non-Champion units survive combat with this unit, return them to your opponent's hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6335,7 +6335,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "FLIGHT. SHIFT.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6352,7 +6352,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "SHIFT. END OF TURN: HEAL ally units 1 in this lane.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6369,7 +6369,7 @@
    "Health": 3,
    "ManaFragments": 2,
    "Text": "START OF TURN: Gain 2 Mana if this unit is on a fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6386,7 +6386,7 @@
    "Health": 2,
    "ManaFragments": 2,
    "Text": "START OF TURN: Deal 1 damage to the enemy Stronghold.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6403,7 +6403,7 @@
    "Health": 6,
    "ManaFragments": 3,
    "Text": "FLIGHT. PUSH. Following combat with an enemy unit, move this unit forward one space.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6420,7 +6420,7 @@
    "Health": 4,
    "ManaFragments": 3,
    "Text": "FLIGHT. All ally units with FLIGHT have +1 Power while this unit is alive.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6437,7 +6437,7 @@
    "Health": 4,
    "ManaFragments": 3,
    "Text": "FLIGHT. SPAWN: Deal 1 damage to all other units.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
 {
@@ -6454,7 +6454,7 @@
     "Health": 8,
     "ManaFragments": 3,
     "Text": "FLIGHT. Giant",
-    "IsGiant": true,
+    "IsGiant": true
 
 },
 {
@@ -6471,7 +6471,7 @@
    "Health": 7,
    "ManaFragments": 0,
    "Text": "FLIGHT. SPAWN: This unit’s owner discards all cards. For each card discarded in this way, this unit gains 1 Power and the owner gains 1 Mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6505,7 +6505,7 @@
    "Health": 5,
    "ManaFragments": 0,
    "Text": "END OF TURN: PULL all enemy units.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6522,7 +6522,7 @@
    "Health": 7,
    "ManaFragments": 0,
    "Text": "START OF TURN: DRAIN 4.",
-   "IsGiant": true,
+   "IsGiant": true
 
  },
  {
@@ -6557,7 +6557,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "END OF TURN: Occupying non-Giant enemy units are placed in a random, open, battlefield space in another lane and receive -1 Power.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6574,7 +6574,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "END OF TURN: DRAIN 1 if occupied by an enemy unit or Starling.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6591,7 +6591,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Any time a unit is moved by PUSH or PULL, deal 1 damage to it.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6608,7 +6608,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Gain Mana equal to the cost of forts spawning in this row.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6625,7 +6625,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "The first enemy non-Champion unit played by your opponent each turn costs [1] additional mana.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6642,7 +6642,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "TRAP: DRAIN 1. Enemy units entering this space are STUNNED.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6659,7 +6659,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "TRAP: Units at full Health are destroyed. Destroy this fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6676,7 +6676,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "END OF TURN: Ally non-Giant, non-Champion units with 1 Power occupying this space are duplicated to fill the row. After duplication, destroy the occupying unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6693,7 +6693,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "START OF TURN: If occupied by an ally, add a random fort to your hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6710,7 +6710,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "END OF TURN: Occupying non-Champion units are returned to their owner's hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6727,7 +6727,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "50% chance to immediately deal 1 damage to the opponent's Stronghold when your Stronghold takes damage.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6744,7 +6744,7 @@
    "Health": 6,
    "ManaFragments": 0,
    "Text": "WALL. When this fort takes damage, deal 1 damage to all units in its lane. END OF TURN: deal 1 damage to this fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6761,7 +6761,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Gain 1 mana for each fort in play.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6778,7 +6778,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "SHIFT an unoccupied fort.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6795,7 +6795,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "PULL target unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6812,7 +6812,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "SHIFT an enemy unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6829,7 +6829,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Gain ownership of an enemy fort without a stationed enemy unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6846,7 +6846,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "DRAIN 2.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6863,7 +6863,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Gain 1 Champion Token for each unit currently in play.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6880,7 +6880,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "HEAL unit for 2 and SHIFT it.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6897,7 +6897,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy any STUNNED non-Champion unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6914,7 +6914,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "PULL all units in the enemy's spawn row.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6931,7 +6931,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Take control of an enemy STUNNED non-Champion unit in the Frontlines for this turn and remove the STUNNED effect.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6948,7 +6948,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 1 damage and STUN a unit.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6965,7 +6965,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Destroy an ally Starling unit in ally territory and deal damage equal to its Power to the opponent's Stronghold. ",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6982,7 +6982,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 2 damage to a unit. If a Starling unit is in the same lane, deal 5 damage instead.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -6999,7 +6999,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "CHOOSE ONE: Gain 9 Champion Tokens -or- DRAW 3.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7016,7 +7016,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Grant a friendly non-Champion unit DEATH: HEAL owner's Stronghold equal to this unit's cost.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7033,7 +7033,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Take control of a non-Champion enemy unit in the Frontlines. This unit is STUNNED for a turn.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7050,7 +7050,7 @@
    "Health": null,
    "ManaFragments": 0,
    "Text": "Deal 4 damage to a unit in the Frontlines. Units adjacent to the target are dealt 2 damage.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7084,7 +7084,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "DEATH: STUN the unit directly in front of this one.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7101,7 +7101,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "SPAWN: PULL an enemy unit in this lane's spawn row.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7152,7 +7152,7 @@
    "Health": 3,
    "ManaFragments": 1,
    "Text": "If this unit is killed by combat, move the surviving unit to an empty space in your opponent's spawn row.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7169,7 +7169,7 @@
    "Health": 2,
    "ManaFragments": 1,
    "Text": "SPAWN: Deal 2 damage randomly split between all other units.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7186,7 +7186,7 @@
    "Health": 2,
    "ManaFragments": 1,
    "Text": "DEATH: Deal 1 damage to the enemy Stronghold.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7203,7 +7203,7 @@
    "Health": 2,
    "ManaFragments": 1,
    "Text": "If this unit is destroyed in Enemy Territory, RESPAWN a random non-GIANT unit from your hand at no cost.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7237,7 +7237,7 @@
    "Health": 1,
    "ManaFragments": 0,
    "Text": "If this unit is killed by combat, shuffle it into your deck.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7254,7 +7254,7 @@
    "Health": 1,
    "ManaFragments": 1,
    "Text": "RESPAWN a 0/2 Creeper.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7271,7 +7271,7 @@
    "Health": 2,
    "ManaFragments": 2,
    "Text": "Gain +1/+1 every time a fort is spawned.",
-   "IsGiant": true,
+   "IsGiant": true
 
  },
  {
@@ -7305,7 +7305,7 @@
    "Health": 1,
    "ManaFragments": 2,
    "Text": "START OF TURN: Grant a random ally unit DEATH: DRAIN 1.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7339,7 +7339,7 @@
    "Health": 3,
    "ManaFragments": 2,
    "Text": "SPAWN: DRAIN 1",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7373,7 +7373,7 @@
    "Health": 2,
    "ManaFragments": 2,
    "Text": "If this unit is killed by combat, place a copy of the attacking non-champion enemy unit into your hand.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7390,7 +7390,7 @@
    "Health": 5,
    "ManaFragments": 2,
    "Text": "START OF TURN: SHIFT any enemy unit in front of this one to a random, adjacent space.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7424,7 +7424,7 @@
    "Health": 5,
    "ManaFragments": 3,
    "Text": "STUN. SURVIVOR: HEAL this unit for 1.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7441,7 +7441,7 @@
    "Health": 2,
    "ManaFragments": 2,
    "Text": "START OF TURN: Move this unit to a random space in the Frontlines.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7458,7 +7458,7 @@
    "Health": 4,
    "ManaFragments": 3,
    "Text": "SPAWN: STUN all enemy units in this lane.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7475,7 +7475,7 @@
    "Health": 5,
    "ManaFragments": 3,
    "Text": "EXECUTE: Add a copy of non-Champion units killed by this unit into your hand.",
-   "IsGiant": true,
+   "IsGiant": true
 
  },
  {
@@ -7526,7 +7526,7 @@
    "Health": 7,
    "ManaFragments": 3,
    "Text": "SURVIVOR: Add a 1/1 Slime to your hand.",
-   "IsGiant": true,
+   "IsGiant": true
 
  },
  {
@@ -7543,7 +7543,7 @@
    "Health": 6,
    "ManaFragments": 3,
    "Text": "SPAWN and DEATH: DRAIN 1.",
-   "IsGiant": false,
+   "IsGiant": false
 
  },
  {
@@ -7838,5 +7838,1903 @@
     "IsGiant": false,
     "Traits": [ "TOKEN" ]
  },
-  
+  {
+    "ID": "AeC001",
+    "GUID": 504,
+    "Name": "Eos Alpha",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 4,
+    "Health": 10,
+    "ManaFragments": 0,
+    "Text": "GIANT. SPAWN: Bless all tiles that do not have a fort.",
+    "IsGiant": true
+  },
+  {
+    "ID": "AeC002",
+    "GUID": 505,
+    "Name": "Immortal Banner",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 4,
+    "Health": 5,
+    "ManaFragments": 0,
+    "Text": "STEELWARD. REGEN 1. Ally units in enemy territory gain +2 Power while this champion is at full health.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeC003",
+    "GUID": 506,
+    "Name": "Coal Raker",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 7,
+    "Health": 7,
+    "ManaFragments": 0,
+    "Text": "While this Champion is in play, all other destroyed ally units are returned to the owner's deck and granted +1/+1.",
+    "IsGiant": false,
+    "Race": "OMEGA"
+  },
+  {
+    "ID": "AeC004",
+    "GUID": 507,
+    "Name": "Host Immaculate",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 4,
+    "Health": 7,
+    "ManaFragments": 0,
+    "Text": "END OF TURN: Perform a random Benediction spell.",
+    "IsGiant": false,
+    "Race": "OMEGA"
+  },
+  {
+    "ID": "AeF002",
+    "GUID": 508,
+    "Name": "Aurora Bank",
+    "Type": "Fort",
+    "Cost": 0,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "SPAWN: Deploy an Aurora Fort in a random space in the frontlines. DEATH: Heal your stronghold 2.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF003",
+    "GUID": 509,
+    "Name": "Aegis Geyser",
+    "Type": "Fort",
+    "Cost": 1,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Deal 2 damage to the occupying unit whenever the owner's Stronghold is damaged.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF004",
+    "GUID": 510,
+    "Name": "Exalted Ward",
+    "Type": "Fort",
+    "Cost": 2,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "TRAP: Deal 3 damage and BLESS this tile.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF005",
+    "GUID": 511,
+    "Name": "Henge Nexus",
+    "Type": "Fort",
+    "Cost": 3,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "BLESSED FORT. Enemy non-Giant units activated adjacent to a Nexus are pulled onto this fort and stunned if it is not currently occupied.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF006",
+    "GUID": 512,
+    "Name": "Ley Lines",
+    "Type": "Fort",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "BLESSED FORT. TRAP: STUN and add a Ley Lines Fort to a random, unoccupied BLESSED tile in the Frontlines.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF007",
+    "GUID": 513,
+    "Name": "Triton Turret",
+    "Type": "Fort",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Any time an ally unit EVOLVES randomly grant an enemy unit -1/-1.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF008",
+    "GUID": 514,
+    "Name": "Two Worlds",
+    "Type": "Fort",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "BLESSED FORT. Can only be placed on a BLESSED tile. END OF TURN: Ally units occupying this fort gain STEELWARD.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF009",
+    "GUID": 515,
+    "Name": "Geometric Altar",
+    "Type": "Fort",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "TRAP: Add a \"Celestial Light\" spell to your hand.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF010",
+    "GUID": 516,
+    "Name": "Radiant Melodies",
+    "Type": "Fort",
+    "Cost": 4,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "START OF TURN: Gain 3 Mana. Destroy this fort if an enemy occupies it.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF011",
+    "GUID": 517,
+    "Name": "Fields of Burden",
+    "Type": "Fort",
+    "Cost": 3,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "When a unit with a Power of 1 is destroyed, BLESS a random tile.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF012",
+    "GUID": 518,
+    "Name": "Roadside Chapel",
+    "Type": "Fort",
+    "Cost": 4,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Unaligned cards cost [1] extra mana to deploy.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF013",
+    "GUID": 519,
+    "Name": "Bastion",
+    "Type": "Fort",
+    "Cost": 3,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "BLESSED FORT. Any time the occupying ally unit takes damage, deal 2 damage to adjacent spaces.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF014",
+    "GUID": 520,
+    "Name": "Words of Praenomen",
+    "Type": "Fort",
+    "Cost": 3,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "END OF TURN: Occupying ally non-GIANT unit with Mana cost 1 EVOLVES into an Apocalypse Cleric.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF015",
+    "GUID": 521,
+    "Name": "Mount Pillar",
+    "Type": "Fort",
+    "Cost": 5,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "OMEGA units gain +2/+2 while occupying this fort, all other ally units gain +1/+1.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF016",
+    "GUID": 522,
+    "Name": "Wormholes",
+    "Type": "Fort",
+    "Cost": 4,
+    "Rarity": "Epic",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "When the owner of this Fort spawns a unit, deploy a Genesis Scout on this space if it is not occupied.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeF017",
+    "GUID": 523,
+    "Name": "Monument of Ancients",
+    "Type": "Fort",
+    "Cost": 6,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 10,
+    "ManaFragments": 0,
+    "Text": "WALL. GIANT. DEATH: BLESS the tiles under this fort.",
+    "IsGiant": true
+  },
+  {
+    "ID": "AeS001",
+    "GUID": 546,
+    "Name": "Planar Incineration",
+    "Type": "Spell",
+    "Cost": 2,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Destroy a fort. BLESS the space.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS002",
+    "GUID": 544,
+    "Name": "Minor Acolytes",
+    "Type": "Spell",
+    "Cost": 2,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Add 2 random 1-cost units to your hand.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS003",
+    "GUID": 548,
+    "Name": "Curse",
+    "Type": "Spell",
+    "Cost": 3,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Deals 2 damage to your Stronghold when discarded. Otherwise this spell does nothing.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS004",
+    "GUID": 538,
+    "Name": "Celestial Light",
+    "Type": "Spell",
+    "Cost": 1,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "CHOOSE ONE: Deal 1 damage to the opponent's stronghold ñorñ Heal your Stronghold by 1.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS006",
+    "GUID": 543,
+    "Name": "Mumbo Jumbo",
+    "Type": "Spell",
+    "Cost": 1,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Target Ally unit gains: \"EXECUTE: add 1 Curse card to opponent's hand.\"",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS007",
+    "GUID": 553,
+    "Name": "Immortal Wrath",
+    "Type": "Spell",
+    "Cost": 5,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Grant a non-champion unit RESPAWN this unit. Remove all Mana Fragments from this unit.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS008",
+    "GUID": 537,
+    "Name": "Fickle Favors",
+    "Type": "Spell",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Randomly destroy target non-Champion unit, or give it +4/+4.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS009",
+    "GUID": 542,
+    "Name": "Dwindling Predictability",
+    "Type": "Spell",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Add 3 Curse cards to the opponent's hand.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS010",
+    "GUID": 555,
+    "Name": "Anathema",
+    "Type": "Spell",
+    "Cost": 4,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Destroy an enemy non-champion unit in Ally Territory.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS012",
+    "GUID": 549,
+    "Name": "Ordination",
+    "Type": "Spell",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Replace or add the OMEGA trait to a non-OMEGA unit, and give it +2 Health.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS013",
+    "GUID": 536,
+    "Name": "Returning Flock",
+    "Type": "Spell",
+    "Cost": 1,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Add 1-3 Genesis Scouts to your hand.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS014",
+    "GUID": 550,
+    "Name": "Tethered Grip",
+    "Type": "Spell",
+    "Cost": 4,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Deal 2 damage to each enemy unit on a BLESSED tile.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS015",
+    "GUID": 545,
+    "Name": "Sanctioning",
+    "Type": "Spell",
+    "Cost": 3,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Grant a unit -2/-2.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS016",
+    "GUID": 539,
+    "Name": "Pocket Energy",
+    "Type": "Spell",
+    "Cost": 1,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Gain 1 Mana for each BLESSED tile in the Frontlines.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS017",
+    "GUID": 540,
+    "Name": "Divine Gift",
+    "Type": "Spell",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Turn all tiles without a Fort in target lane into BLESSED tiles.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS018",
+    "GUID": 554,
+    "Name": "Parallel Pattern",
+    "Type": "Spell",
+    "Cost": 4,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Choose a BLESSED tile and add 2 copies of any Non-Champion unit on the space to your deck.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS019",
+    "GUID": 551,
+    "Name": "Ageless Strength",
+    "Type": "Spell",
+    "Cost": 4,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Heal all OMEGA units to full Health.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS020",
+    "GUID": 547,
+    "Name": "Purity Halo",
+    "Type": "Spell",
+    "Cost": 1,
+    "Rarity": "Epic",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Target ally unit has STEELWARD while in the spawn row.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS021",
+    "GUID": 524,
+    "Name": "Benediction of Fervor",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "If your champion is in your spawn row grant it SPRINT. If this unit is in the frontlines, grant it FLIGHT.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS022",
+    "GUID": 525,
+    "Name": "Benediction of Fury",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Grant ally Champion +1/+1 if it is in play.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS023",
+    "GUID": 526,
+    "Name": "Benediction of Humility",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Reduce the power of a random enemy unit to 0.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS024",
+    "GUID": 527,
+    "Name": "Benediction of Indignation",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Deal 3 damage randomly to enemy units, enemy WALL forts, and Stronghold.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS025",
+    "GUID": 528,
+    "Name": "Benediction of Justice",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Deal 2 damage to the enemy Stronghold.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS026",
+    "GUID": 529,
+    "Name": "Benediction of Peace",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Grant +2 Health to a random Ally unit.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS027",
+    "GUID": 530,
+    "Name": "Benediction of Purity",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Randomly Bless 3 tiles.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS028",
+    "GUID": 531,
+    "Name": "Benediction of Salt",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Destroy a random enemy fort and gain Mana equal to its cost. Add a Mount Pillar fort to your hand.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS029",
+    "GUID": 532,
+    "Name": "Benediction of Serenity",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "All Ally units heal to their full health.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS030",
+    "GUID": 533,
+    "Name": "Benediction of the Host",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Bless all tiles in this unit's row and spawn a 1/1 Genesis Scout in each unoccupied space.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS031",
+    "GUID": 534,
+    "Name": "Benediction of Veneration",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Heal your Stronghold for 2 and gain 2 mana.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS032",
+    "GUID": 535,
+    "Name": "Benediction of Wrath",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Randomly destroy an enemy unit and DRAW 2.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS033",
+    "GUID": 585,
+    "Name": "Benediction of Glory",
+    "Type": "Spell",
+    "Cost": 0,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "All Ally units gain +1/+1.",
+    "IsGiant": false,
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeS034",
+    "GUID": 541,
+    "Name": "Battle Preparations",
+    "Type": "Spell",
+    "Cost": 3,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "DRAW cards equal to your opponent's hand.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeS035",
+    "GUID": 552,
+    "Name": "Divine Intervention",
+    "Type": "Spell",
+    "Cost": 5,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 0,
+    "ManaFragments": 0,
+    "Text": "Return all non-Champion units in target lane to their owner's hand.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU000",
+    "GUID": 556,
+    "Name": "Genesis Scout",
+    "Type": "Unit",
+    "Cost": 1,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 1,
+    "Health": 1,
+    "ManaFragments": 1,
+    "Text": "This unit gains +1/+1 and FLIGHT while on a BLESSED tile.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU001",
+    "GUID": 557,
+    "Name": "Lamprey Tangle (E1)",
+    "Type": "Unit",
+    "Cost": 1,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 1,
+    "Health": 1,
+    "ManaFragments": 1,
+    "Text": "EVOLVE into Feeder Maw if on a BLESSED tile at the END OF TURN.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU002",
+    "GUID": 558,
+    "Name": "Shepherd",
+    "Type": "Unit",
+    "Cost": 1,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 1,
+    "Health": 1,
+    "ManaFragments": 1,
+    "Text": "END OF TURN: Gain 2 Champion tokens if this unit occupies a BLESSED tile or fort.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU003",
+    "GUID": 559,
+    "Name": "Psychic Visions",
+    "Type": "Unit",
+    "Cost": 2,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 3,
+    "Health": 1,
+    "ManaFragments": 1,
+    "Text": "DEATH: BLESS 2 random tiles in the frontlines.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU004",
+    "GUID": 560,
+    "Name": "Sacred Mystics",
+    "Type": "Unit",
+    "Cost": 2,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 1,
+    "Health": 1,
+    "ManaFragments": 1,
+    "Text": "BLESS. SHIFT.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU005",
+    "GUID": 561,
+    "Name": "Shaman of the Steppes",
+    "Type": "Unit",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 2,
+    "Health": 3,
+    "ManaFragments": 1,
+    "Text": "Anytime this unit moves, grant +1 Health to a random ally unit.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU006",
+    "GUID": 562,
+    "Name": "Sympathetic Barons",
+    "Type": "Unit",
+    "Cost": 2,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 3,
+    "Health": 4,
+    "ManaFragments": 1,
+    "Text": "Anytime the opponent's stronghold is damaged, this unit is returned to its owner's hand.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU007",
+    "GUID": 563,
+    "Name": "Terraform Machine",
+    "Type": "Unit",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 2,
+    "Health": 2,
+    "ManaFragments": 1,
+    "Text": "STEELWARD. BLESS. Destroy any non-BLESSED fort this unit moves onto.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU008",
+    "GUID": 564,
+    "Name": "The Dreaming",
+    "Type": "Unit",
+    "Cost": 2,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 1,
+    "Health": 3,
+    "ManaFragments": 1,
+    "Text": "DRAW a card everytime a unit EVOLVES or RESPAWNS.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU009",
+    "GUID": 565,
+    "Name": "Apocalypse Cleric",
+    "Type": "Unit",
+    "Cost": 3,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 3,
+    "Health": 3,
+    "ManaFragments": 2,
+    "Text": "STEELWARD. BREACH onto any BLESSED tile.",
+    "IsGiant": false,
+    "Race": "OMEGA"
+  },
+  {
+    "ID": "AeU010",
+    "GUID": 567,
+    "Name": "Basilisk of Babylon",
+    "Type": "Unit",
+    "Cost": 3,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 0,
+    "Health": 2,
+    "ManaFragments": 2,
+    "Text": "RANGE. START OF TURN: Gain +2 Power. EXECUTE: Reduce this unit's Power to 0.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU011",
+    "GUID": 568,
+    "Name": "Blessed Steward",
+    "Type": "Unit",
+    "Cost": 3,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 2,
+    "Health": 4,
+    "ManaFragments": 2,
+    "Text": "REGEN. Gain SHIFT while occupying a BLESSED tile.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU012",
+    "GUID": 569,
+    "Name": "Feeder Maw (F1)",
+    "Type": "Unit",
+    "Cost": 3,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 1,
+    "Health": 1,
+    "ManaFragments": 2,
+    "Text": "START OF TURN: If occupying a BLESSED tile, destroy BLESSED tile and gain +2/+2. This destroys BLESSED FORTS.",
+    "IsGiant": false,
+    "Race": "OMEGA"
+  },
+  {
+    "ID": "AeU013",
+    "GUID": 570,
+    "Name": "Fettered Shadow",
+    "Type": "Unit",
+    "Cost": 3,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 6,
+    "Health": 4,
+    "ManaFragments": 2,
+    "Text": "START OF TURN: Lose a Mana Fragment. If this unit doesn't have one to lose, it is destroyed.",
+    "IsGiant": false,
+    "Race": "SHADOW"
+  },
+  {
+    "ID": "AeU014",
+    "GUID": 571,
+    "Name": "Horizon Machine",
+    "Type": "Unit",
+    "Cost": 3,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "CardSet": 5,
+    "Power": 1,
+    "Health": 1,
+    "ManaFragments": 0,
+    "Text": "Whenever this unit moves into a new space, leave a Horizon Machine in the originating space.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU015",
+    "GUID": 572,
+    "Name": "Rumor Lich (F6)",
+    "Type": "Unit",
+    "Cost": 4,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 1,
+    "Health": 2,
+    "ManaFragments": 2,
+    "Text": "STEELWARD. DEATH: All ally units on a BLESSED tile gain +2/+2.",
+    "IsGiant": false,
+    "Race": "OMEGA"
+  },
+  {
+    "ID": "AeU016",
+    "GUID": 573,
+    "Name": "Rumor Magi (E6)",
+    "Type": "Unit",
+    "Cost": 4,
+    "Rarity": "Common",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 3,
+    "Health": 3,
+    "ManaFragments": 2,
+    "Text": "SPRINT. BLESS. EVOLVE into Rumor Lich after this unit damages the opponent's stronghold.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU017",
+    "GUID": 574,
+    "Name": "Sanguis Archer",
+    "Type": "Unit",
+    "Cost": 3,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 2,
+    "Health": 1,
+    "ManaFragments": 2,
+    "Text": "STEELWARD. RANGE. EXECUTE: BLESS the space under the destroyed unit if there isn't a fort present.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU018",
+    "GUID": 575,
+    "Name": "Solar Footman (E2)",
+    "Type": "Unit",
+    "Cost": 4,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 2,
+    "Health": 3,
+    "ManaFragments": 2,
+    "Text": "SURVIVOR: EVOLVE into Lunar Phoenix.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU019",
+    "GUID": 576,
+    "Name": "Eastern Strider (E3)",
+    "Type": "Unit",
+    "Cost": 4,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 2,
+    "Health": 4,
+    "ManaFragments": 2,
+    "Text": "START OF TURN: Gain +1 Power. BLESS the occupied tile and EVOLVE into Sphinx Ward as soon as this unit reaches Power 5 or greater.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU020",
+    "GUID": 577,
+    "Name": "Sarkus Titan (E4)",
+    "Type": "Unit",
+    "Cost": 4,
+    "Rarity": "Epic",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 5,
+    "Health": 4,
+    "ManaFragments": 0,
+    "Text": "EXECUTE: Add Mana Fragments to this unit equal to the Mana Fragments of killed unit. EVOLVE this unit when it has 3 Mana Fragments.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU021",
+    "GUID": 578,
+    "Name": "Dominus Paladin",
+    "Type": "Unit",
+    "Cost": 5,
+    "Rarity": "Basic",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 4,
+    "Health": 5,
+    "ManaFragments": 3,
+    "Text": "BLESS. GIANT.",
+    "IsGiant": true
+  },
+  {
+    "ID": "AeU022",
+    "GUID": 579,
+    "Name": "Lunar Phoenix (F2)",
+    "Type": "Unit",
+    "Cost": 6,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 3,
+    "Health": 7,
+    "ManaFragments": 3,
+    "Text": "FLIGHT. SURVIVOR: EVOLVE into Solar Footman.",
+    "IsGiant": false,
+    "Race": "OMEGA",
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeU023",
+    "GUID": 580,
+    "Name": "Mountain Jotnar (E5)",
+    "Type": "Unit",
+    "Cost": 6,
+    "Rarity": "Epic",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 3,
+    "Text": "GIANT. EVOLVE into Penumbra Giant when your opponent's Champion enters the battlefield.",
+    "IsGiant": true
+  },
+  {
+    "ID": "AeU024",
+    "GUID": 581,
+    "Name": "Pure Form",
+    "Type": "Unit",
+    "Cost": 6,
+    "Rarity": "Rare",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 7,
+    "Health": 7,
+    "ManaFragments": 3,
+    "Text": "SPAWN: BLESS. START OF TURN: Lose 4 Health if this unit is not on a BLESSED tile.",
+    "IsGiant": false
+  },
+  {
+    "ID": "AeU025",
+    "GUID": 582,
+    "Name": "Sphinx Ward (F3)",
+    "Type": "Unit",
+    "Cost": 6,
+    "Rarity": "Epic",
+    "Collectible": true,
+    "Forgeable": true,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 5,
+    "Health": 5,
+    "ManaFragments": 3,
+    "Text": "STEELWARD. START OF TURN: Gain 3 Mana if this unit is on a BLESSED tile.",
+    "IsGiant": false,
+    "Race": "OMEGA"
+  },
+  {
+    "ID": "AeU026",
+    "GUID": 583,
+    "Name": "Penumbra Giant (F5)",
+    "Type": "Unit",
+    "Cost": 9,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis", "CardSet" : 5,
+    "Power": 6,
+    "Health": 8,
+    "ManaFragments": 3,
+    "Text": "GIANT. STEELWARD.",
+    "IsGiant": true,
+    "Race": "OMEGA",
+    "Traits": ["TOKEN"]
+  },
+  {
+    "ID": "AeU027",
+    "GUID": 584,
+    "Name": "World Thrower (F4)",
+    "Type": "Unit",
+    "Cost": 8,
+    "Rarity": "Token",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis",
+    "CardSet": 5,
+    "Power": 7,
+    "Health": 7,
+    "ManaFragments": 3,
+    "Text": "EXECUTE: Heal this unit 1 for every mana fragment of the defeated unit.",
+    "IsGiant": false,
+    "Race": "OMEGA",
+    "Traits": [ "TOKEN" ]
+  },
+  {
+    "ID": "DuC003",
+    "GUID": 473,
+    "Name": "Etwas The Jester",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Scales", "Delirium" ],
+    "Power": 5,
+    "Health": 5,
+    "ManaFragments": 0,
+    "Text": "END OF TURN: Randomly change the Health and Power of this unit. Replace a random card in the opponent's hand with a [0/2] Chum Creeper.",
+    "IsGiant": false,
+    "Race": "None",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC007",
+    "GUID": 477,
+    "Name": "Thu'Balris",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Eclipse", "Essence" ],
+    "Power": 5,
+    "Health": 7,
+    "ManaFragments": 0,
+    "Text": "FLIGHT. SPAWN: Randomly grant all other ally units one of the following: BLIGHT, SIPHON 1, SHIFT, or FLIGHT.",
+    "IsGiant": false,
+    "Race": "DRAGON",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC020",
+    "GUID": 494,
+    "Name": "Arachnis King",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Thorns", "Silence" ],
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "REGEN 2. Units damaged by this unit are poisoned. SURVIVOR: Grant this unit STEALTH and move it to a random Frontline space.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC005",
+    "GUID": 475,
+    "Name": "Entropy",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": true,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Strife", "Delirium" ],
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "FLIGHT. SPAWN: All enemy units take an amount of damage equal to their Mana Fragments.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC012",
+    "GUID": 485,
+    "Name": "Valeria of Crowns",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Scales", "Essence" ],
+    "Power": 3,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "SHIFT. ARMOR. EXECUTE: REFRESH this unit.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC009",
+    "GUID": 482,
+    "Name": "Hemlock",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Eclipse", "Silence" ],
+    "Power": 4,
+    "Health": 7,
+    "ManaFragments": 0,
+    "Text": "Units damaged by this unit are POISONED and BLIGHTED. EXECUTE: A random enemy becomes POISONED and BLIGHTED.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC006",
+    "GUID": 476,
+    "Name": "M'Rhythas Shae",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Thorns", "Delirium" ],
+    "Power": 3,
+    "Health": 5,
+    "ManaFragments": 0,
+    "Text": "SPAWN: Destroy all non-Champion enemies in this lane and Respawn them as enemy 0/1 Jellies. SURVIVOR: Gain +2 Power or +2 Health at random.",
+    "IsGiant": false,
+    "Race": "DRUID",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC014",
+    "GUID": 487,
+    "Name": "Baron and Cleo",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Essence", "Strife" ],
+    "Power": 4,
+    "Health": 4,
+    "ManaFragments": 0,
+    "Text": "BREACH. END OF TURN: Deploy Cleo on an open space in your spawn row if Cleo is not in play.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC017",
+    "GUID": 490,
+    "Name": "Lady",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Scales", "Silence" ],
+    "Power": 4,
+    "Health": 7,
+    "ManaFragments": 0,
+    "Text": "GIANT. SPAWN: Deal 3 damage to all units in both lanes and HUSH non-Champion units.",
+    "IsGiant": true,
+    "Race": "DRAGON",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC001",
+    "GUID": 471,
+    "Name": "Blackstar",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Delirium", "Eclipse" ],
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "GIANT. Reduce all incoming Combat Damage to 1. COMMAND: Remove a Champion Token from your opponent when you bank mana.",
+    "IsGiant": true,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC016",
+    "GUID": 489,
+    "Name": "Mia's Seeding Contraption",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Essence", "Thorns" ],
+    "Power": 3,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "GIANT. Reduce all incoming Combat Damage to 1. COMMAND: Remove a Champion Token from your opponent when you bank mana.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC023",
+    "GUID": 493,
+    "Name": "Komrade Kroaker",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Silence", "Strife" ],
+    "Power": 0,
+    "Health": 3,
+    "ManaFragments": 0,
+    "Text": "STEALTH. END OF TURN: Deal 3 damage to a random enemy unit.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC008",
+    "GUID": 478,
+    "Name": "Eternal Warden",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Eclipse", "Scales" ],
+    "Power": 4,
+    "Health": 4,
+    "ManaFragments": 0,
+    "Text": "ARMOR. RESPAWN: The Eternal Warden at -1/-1.  COMMAND: Units gain [Trigger SURVIVOR on DEATH.]",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC021",
+    "GUID": 495,
+    "Name": "Fires of the Earth",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Strife", "Thorns" ],
+    "Power": 3,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "GIANT. Gain +1/+1 when a fort is destroyed. COMMAND: Gain Champion Tokens equal to a Fort’s cost when one is played.",
+    "IsGiant": true,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC002",
+    "GUID": 472,
+    "Name": "Infinite Recursion",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Delirium", "Essence" ],
+    "Power": 3,
+    "Health": 3,
+    "ManaFragments": 0,
+    "Text": "PUSH. DEATH: Add 2 Infinite Recursion units to your hand and DRAIN: 1.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC010",
+    "GUID": 483,
+    "Name": "Magmarot Steelhorn",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Eclipse", "Strife" ],
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "DEATHBLOW. SPAWN: Grant all enemy units DEATH: Deal 1 damage to owner's stronghold.",
+    "IsGiant": false,
+    "Race": "SLAG",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC019",
+    "GUID": 492,
+    "Name": "Ja'Ru",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Scales", "Thorns" ],
+    "Power": 3,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "GIANT. ARMOR. Doesn’t move when activated. END OF TURN: Deal 2 damage to the opponent’s stronghold and gain 2 Mana.",
+    "IsGiant": true,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC004",
+    "GUID": 474,
+    "Name": "Venerzad Kahin",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Delirium", "Silence" ],
+    "Power": 7,
+    "Health": 5,
+    "ManaFragments": 0,
+    "Text": "SWIFT. Decrease this unit's power by 1 when it destroys a unit in combat. END OF TURN: Deal 1 damage to stunned enemy units.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC018",
+    "GUID": 491,
+    "Name": "Malice",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Scales", "Strife" ],
+    "Power": 5,
+    "Health": 9,
+    "ManaFragments": 0,
+    "Text": "Excess Combat damage is applied down the lane ending at the enemy Stronghold. DEATH: Deal 5 damage to your own stronghold.",
+    "IsGiant": false,
+    "Race": "DRAGON",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC013",
+    "GUID": 486,
+    "Name": "Wings of Ill Omen",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Essence", "Silence" ],
+    "Power": 3,
+    "Health": 5,
+    "ManaFragments": 0,
+    "Text": "FLIGHT. STEALTH. CHOOSE ONE: DRAW 5, or force your opponent to DRAW 5.",
+    "IsGiant": false,
+    "Race": "GOLEM",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC011",
+    "GUID": 484,
+    "Name": "Legend",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Eclipse", "Thorns" ],
+    "Power": 5,
+    "Health": 7,
+    "ManaFragments": 0,
+    "Text": "END OF TURN: Either give an other random ally unit +2 Health or give a random enemy unit -2 Power.",
+    "IsGiant": false,
+    "Race": "DRAGON",
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC024",
+    "Name": "All Father",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Aegis",
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "FLIGHT. STEELWARD. SURVIVOR: EVOLVE a random friendly unit into a Fettered Shadow.",
+    "IsGiant": false,
+    "CardSet": 4
+  },
+  {
+    "ID": "DuC025",
+    "Name": "Divine Witness",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Aegis", "Scales" ],
+    "Power": 4,
+    "Health": 5,
+    "ManaFragments": 0,
+    "Text": "STEELWARD. ARMOR. REGEN.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC026",
+    "Name": "Divine Reliquary",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Aegis", "Eclipse" ],
+    "Power": 3,
+    "Health": 4,
+    "ManaFragments": 0,
+    "Text": "RANGE. SIPHON: 1. END OF TURN: BLIGHT one random enemy unit and change its Power to 1.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC027",
+    "Name": "Divine Life Weaver",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Aegis", "Thorns" ],
+    "Power": 4,
+    "Health": 8,
+    "ManaFragments": 0,
+    "Text": "RUSH. SPAWN: Deal 3 damage to enemy units occupying fort or BLESSED tiles.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC028",
+    "Name": "Divine Reactor",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Aegis", "Strife" ],
+    "Power": 4,
+    "Health": 6,
+    "ManaFragments": 0,
+    "Text": "GIANT. BERSERK. SPAWN: Deal 5 damage to both Strongholds.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC029",
+    "Name": "Divine Mirage FORT",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Aegis", "Silence" ],
+    "Power": null,
+    "Health": null,
+    "ManaFragments": 0,
+    "Text": "BLESSED FORT. STEELWARD. END OF TURN: If unoccupied, SPAWN a random Non-Giant unit on this space.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC030",
+    "Name": "Divine Prismorphix",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Aegis", "Essence" ],
+    "Power": 4,
+    "Health": 5,
+    "ManaFragments": 0,
+    "Text": "FLIGHT. RESPAWN: Random Champion.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  },
+  {
+    "ID": "DuC031",
+    "Name": "Divine Authority",
+    "Type": "Champion",
+    "Cost": 15,
+    "Rarity": "Champion",
+    "Collectible": false,
+    "Forgeable": false,
+    "Faction": "Unaligned",
+    "ValidFactions": [ "Aegis", "Delirium" ],
+    "Power": 3,
+    "Health": 8,
+    "ManaFragments": 0,
+    "Text": "SPAWN: Add 2 Curse cards to the opponent's hand. SURVIVOR: Add 1 Curse card to the opponent's hand.",
+    "IsGiant": false,
+    "CardSet": 4,
+    "Traits": [ "DUAL" ]
+  }
 ]

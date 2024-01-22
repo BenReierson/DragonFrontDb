@@ -11,7 +11,7 @@
   },
   "CardDataVersion": {
     "Major": 3,
-    "Minor": 0,
+    "Minor": 1,
     "Build": 1
   },
   "CardDataCompatibleVersion": {
@@ -19,10 +19,11 @@
     "Minor": 4,
     "Build": 0
   },
-  "CardDataName": "Dragon Front Rising",
-  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
+  "CardDataName": "Aegis and Dual Champions",
+  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/Development/AllCards.json",
   "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
+    "3.1.1": "Aegis and Dual Champions.",
     "3.0.1": "Rising balance changes.",
     "3.0.0": "Updated for Rising launch.",
     "2.4.3": "Added Magmarot Steelhorn, Ja'Ru, Venerzad Kain, Malice, Wings of Ill Omen, Legend dual champions.",
@@ -41,5 +42,5 @@
     "2.0.1": "August Sultan updated",
     "2.0.0": "Conquest Champions Added"
   },
-  "CardDataStatus": "RELEASE"
+  "CardDataStatus": "PREVIEW"
 }
