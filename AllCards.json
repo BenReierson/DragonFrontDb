@@ -9431,7 +9431,7 @@
     "Power": 4,
     "Health": 6,
     "ManaFragments": 0,
-    "Text": "GIANT. Reduce all incoming Combat Damage to 1. COMMAND: Gain a Champion Token when your opponent banks mana.",
+    "Text": "GIANT. Reduce all incoming Combat Damage to 1.",
     "IsGiant": true,
     "CardSet": 4,
     "Traits": [ "DUAL" ]
