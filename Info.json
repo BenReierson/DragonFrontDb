@@ -20,7 +20,7 @@
     "Build": 0
   },
   "CardDataName": "Aegis and Dual Champions",
-  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/Development/AllCards.json",
+  "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
   "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
     "3.1.1": "Aegis and Dual Champions.",
@@ -42,5 +42,5 @@
     "2.0.1": "August Sultan updated",
     "2.0.0": "Conquest Champions Added"
   },
-  "CardDataStatus": "PREVIEW"
+  "CardDataStatus": "RELEASE"
 }
