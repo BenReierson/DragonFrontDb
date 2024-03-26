@@ -9450,7 +9450,7 @@
     "Power": 3,
     "Health": 6,
     "ManaFragments": 0,
-    "Text": "GIANT. Reduce all incoming Combat Damage to 1. COMMAND: Remove a Champion Token from your opponent when you bank mana.",
+    "Text": "SHIFT. Spawn a Field of Thorns when this unit moves in the Frontlines. COMMAND: Allies gain: EXECUTE: Heal this unit for 1.",
     "IsGiant": false,
     "CardSet": 4,
     "Traits": [ "DUAL" ]

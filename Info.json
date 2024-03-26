@@ -11,7 +11,7 @@
   },
   "CardDataVersion": {
     "Major": 3,
-    "Minor": 1,
+    "Minor": 2,
     "Build": 1
   },
   "CardDataCompatibleVersion": {
@@ -23,6 +23,7 @@
   "CardDataUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/AllCards.json",
   "CardTraitsUrl": "https://raw.githubusercontent.com/BenReierson/DragonFrontDb/master/CardTraits.json",
   "CardDataChangeLog": {
+    "3.2.1": "Fixed Mia's Seeding Contraption text.",
     "3.1.1": "Aegis and Dual Champions.",
     "3.0.1": "Rising balance changes.",
     "3.0.0": "Updated for Rising launch.",
